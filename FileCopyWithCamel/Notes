@@ -1,0 +1,64 @@
+Camel:
+https://www.manning.com/books/camel-in-action
+https://code.google.com/archive/p/camelinaction/
+
+Nexus:
+http://www.sonatype.com/
+
+Maven Central Repo:
+http://repo1.maven.org/maven2/
+
+
+mvn compile exec:java -Dexec.mainClass=com.mycompany.camel.blueprint.FileCopierWithCamel
+
+
+Logging:
+https://dzone.com/articles/how-configure-slf4j-different
+###########FOR XML Layout
+http://howtodoinjava.com/log4j/how-to-create-logs-in-xml-format-using-log4j/
+#######Log4j tutorials
+https://examples.javacodegeeks.com/enterprise-java/logback/logback-rollingfileappender-example/
+layout Pattern
+http://www.tutorialspoint.com/log4j/log4j_patternlayout.htm
+
+
+Camel:
+
+Camel’s message model
+
+org.apache.camel.Message:The fundamental entity containing the data being carried and routed in Camel.
+
+Messages are uniquely identified with an identifier of type java.lang.String.
+Messages are the entities used by systems to communicate with each other when using messaging channels.
+
+The identifier’s uniqueness is enforced and guaranteed by the message creator, it’s protocol dependent, and it doesn’t have a guaranteed format.
+For protocols that don’t define a unique message identification scheme, Camel uses its own  UID generator.
+
+Message 
+Header-Headers are name-value pairs; the name is a unique, case-insensitive string, and the value is of type  java.lang.Object. 
+Attachments(Optional)
+Body-The body is of type  java.lang.Object 
+
+
+
+org.apache.camel.Exchange: The Camel abstraction for an exchange of messages. This exchange of messages has an “in” message and as a reply, an “out” message.
+
+Exchange ID
+MEP- Message Exachange Pattern(In-Only and In-OUT)
+Exception- If an error occurs at any time during routing, an  Exception will be set in the exception field.
+Properties- Similar to message headers, but they last for the duration of the entire exchange. Properties are used to contain global-level information, whereas message headers are specific to a particular message. Camel itself will add various properties to the exchange during routing.
+You, as a developer, can store and retrieve properties at any point during the lifetime of an exchange.
+
+In message- Headers , Attachment , Body 
+Out Message- Headers , Attachment , Body
+
+
+
+When the pattern is  InOnly , the exchange contains an in message. For InOut , an out message also exists that contains the reply message for the caller.
+
+
+
+
+
+
+

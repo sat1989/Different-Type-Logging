@@ -1,0 +1,296 @@
+2016-07-10 00:32:20,919 [main           ] DEBUG DefaultCamelContext            - Adding routes from builder: Routes: []
+2016-07-10 00:32:20,992 [main           ] INFO  DefaultCamelContext            - Apache Camel 2.15.1.redhat-621084 (CamelContext: camel-1) is starting
+2016-07-10 00:32:20,993 [main           ] DEBUG DefaultCamelContext            - Using ClassResolver=org.apache.camel.impl.DefaultClassResolver@97cd75, PackageScanClassResolver=org.apache.camel.impl.DefaultPackageScanClassResolver@31f1f8, ApplicationContextClassLoader=null
+2016-07-10 00:32:20,994 [main           ] INFO  ManagedManagementStrategy      - JMX is enabled
+2016-07-10 00:32:21,076 [main           ] DEBUG DefaultManagementAgent         - Starting JMX agent on server: com.sun.jmx.mbeanserver.JmxMBeanServer@117fd27
+2016-07-10 00:32:21,172 [main           ] DEBUG DefaultManagementAgent         - Registered MBean with ObjectName: org.apache.camel:context=camel-1,type=context,name="camel-1"
+2016-07-10 00:32:21,173 [main           ] DEBUG TimerListenerManager           - Added TimerListener: org.apache.camel.management.mbean.ManagedCamelContext@1ef63c7
+2016-07-10 00:32:21,238 [main           ] DEBUG DefaultManagementAgent         - Registered MBean with ObjectName: org.apache.camel:context=camel-1,type=services,name=DefaultTypeConverter
+2016-07-10 00:32:21,297 [main           ] INFO  DefaultTypeConverter           - Loaded 182 type converters
+2016-07-10 00:32:21,306 [main           ] DEBUG DefaultManagementAgent         - Registered MBean with ObjectName: org.apache.camel:context=camel-1,type=services,name=DefaultEndpointRegistry
+2016-07-10 00:32:21,307 [main           ] DEBUG DefaultManagementAgent         - Registered MBean with ObjectName: org.apache.camel:context=camel-1,type=services,name=DefaultExecutorServiceManager
+2016-07-10 00:32:21,309 [main           ] DEBUG DefaultManagementAgent         - Registered MBean with ObjectName: org.apache.camel:context=camel-1,type=services,name=SharedProducerServicePool
+2016-07-10 00:32:21,309 [main           ] DEBUG SharedProducerServicePool      - Starting service pool: org.apache.camel.impl.SharedProducerServicePool@d47b5a
+2016-07-10 00:32:21,314 [main           ] DEBUG DefaultManagementAgent         - Registered MBean with ObjectName: org.apache.camel:context=camel-1,type=services,name=DefaultInflightRepository
+2016-07-10 00:32:21,321 [main           ] DEBUG DefaultManagementAgent         - Registered MBean with ObjectName: org.apache.camel:context=camel-1,type=services,name=DefaultAsyncProcessorAwaitManager
+2016-07-10 00:32:21,322 [main           ] DEBUG DefaultManagementAgent         - Registered MBean with ObjectName: org.apache.camel:context=camel-1,type=services,name=DefaultShutdownStrategy
+2016-07-10 00:32:21,324 [main           ] DEBUG DefaultManagementAgent         - Registered MBean with ObjectName: org.apache.camel:context=camel-1,type=services,name=DefaultPackageScanClassResolver
+2016-07-10 00:32:21,328 [main           ] DEBUG DefaultManagementAgent         - Registered MBean with ObjectName: org.apache.camel:context=camel-1,type=services,name=DefaultRestRegistry
+2016-07-10 00:32:21,332 [main           ] DEBUG DefaultManagementAgent         - Registered MBean with ObjectName: org.apache.camel:context=camel-1,type=eventnotifiers,name=EventNotifier(0x1f067ff)
+2016-07-10 00:32:21,348 [main           ] DEBUG DefaultCamelContext            - Using ComponentResolver: org.apache.camel.impl.DefaultComponentResolver@13d1d16 to resolve component with name: file
+2016-07-10 00:32:21,349 [main           ] DEBUG DefaultComponentResolver       - Found component: file in registry: null
+2016-07-10 00:32:21,359 [main           ] DEBUG DefaultComponentResolver       - Found component: file via type: org.apache.camel.component.file.FileComponent via: META-INF/services/org/apache/camel/component/file
+2016-07-10 00:32:21,375 [main           ] DEBUG DefaultManagementAgent         - Registered MBean with ObjectName: org.apache.camel:context=camel-1,type=components,name="file"
+2016-07-10 00:32:21,377 [main           ] DEBUG DefaultComponent               - Creating endpoint uri=[file://data/inbox], path=[data/inbox]
+2016-07-10 00:32:21,409 [main           ] DEBUG DefaultCamelContext            - file://data/inbox converted to endpoint: Endpoint[file://data/inbox] by component: org.apache.camel.component.file.FileComponent@e28bf
+2016-07-10 00:32:21,418 [main           ] DEBUG DefaultManagementAgent         - Registered MBean with ObjectName: org.apache.camel:context=camel-1,type=endpoints,name="file://data/inbox"
+2016-07-10 00:32:21,429 [main           ] DEBUG DefaultComponent               - Creating endpoint uri=[file://data/outbox], path=[data/outbox]
+2016-07-10 00:32:21,430 [main           ] DEBUG DefaultCamelContext            - file://data/outbox converted to endpoint: Endpoint[file://data/outbox] by component: org.apache.camel.component.file.FileComponent@e28bf
+2016-07-10 00:32:21,431 [main           ] DEBUG DefaultManagementAgent         - Registered MBean with ObjectName: org.apache.camel:context=camel-1,type=endpoints,name="file://data/outbox"
+2016-07-10 00:32:21,436 [main           ] DEBUG DefaultChannel                 - Initialize channel for target: 'To[file:data/outbox]'
+2016-07-10 00:32:21,444 [main           ] DEBUG DefaultManagementAgent         - Registered MBean with ObjectName: org.apache.camel:context=camel-1,type=tracer,name=BacklogTracer
+2016-07-10 00:32:21,456 [main           ] DEBUG DefaultManagementAgent         - Registered MBean with ObjectName: org.apache.camel:context=camel-1,type=tracer,name=BacklogDebugger
+2016-07-10 00:32:21,487 [main           ] DEBUG DefaultManagementAgent         - Registered MBean with ObjectName: org.apache.camel:context=camel-1,type=errorhandlers,name="DefaultErrorHandlerBuilder(ref:CamelDefaultErrorHandlerBuilder)"
+2016-07-10 00:32:21,497 [main           ] INFO  DefaultCamelContext            - AllowUseOriginalMessage is enabled. If access to the original message is not needed, then its recommended to turn this option off as it may improve performance.
+2016-07-10 00:32:21,497 [main           ] INFO  DefaultCamelContext            - StreamCaching is not in use. If using streams then its recommended to enable stream caching. See more details at http://camel.apache.org/stream-caching.html
+2016-07-10 00:32:21,498 [main           ] DEBUG DefaultCamelContext            - Warming up route id: route1 having autoStartup=true
+2016-07-10 00:32:21,498 [main           ] DEBUG RouteService                   - Starting services on route: route1
+2016-07-10 00:32:21,505 [main           ] DEBUG IntrospectionSupport           - Configured property: sendEmptyMessageWhenIdle on bean: Consumer[file://data/inbox] with value: false
+2016-07-10 00:32:21,505 [main           ] DEBUG IntrospectionSupport           - Configured property: scheduler on bean: Consumer[file://data/inbox] with value: null
+2016-07-10 00:32:21,506 [main           ] DEBUG IntrospectionSupport           - Configured property: greedy on bean: Consumer[file://data/inbox] with value: false
+2016-07-10 00:32:21,506 [main           ] DEBUG IntrospectionSupport           - Configured property: initialDelay on bean: Consumer[file://data/inbox] with value: 1000
+2016-07-10 00:32:21,507 [main           ] DEBUG IntrospectionSupport           - Configured property: startScheduler on bean: Consumer[file://data/inbox] with value: true
+2016-07-10 00:32:21,507 [main           ] DEBUG IntrospectionSupport           - Configured property: pollStrategy on bean: Consumer[file://data/inbox] with value: org.apache.camel.impl.DefaultPollingConsumerPollStrategy@ebeb60
+2016-07-10 00:32:21,508 [main           ] DEBUG IntrospectionSupport           - Configured property: backoffErrorThreshold on bean: Consumer[file://data/inbox] with value: 0
+2016-07-10 00:32:21,508 [main           ] DEBUG IntrospectionSupport           - Configured property: timeUnit on bean: Consumer[file://data/inbox] with value: MILLISECONDS
+2016-07-10 00:32:21,508 [main           ] DEBUG IntrospectionSupport           - Configured property: scheduledExecutorService on bean: Consumer[file://data/inbox] with value: null
+2016-07-10 00:32:21,508 [main           ] DEBUG IntrospectionSupport           - Configured property: schedulerProperties on bean: Consumer[file://data/inbox] with value: null
+2016-07-10 00:32:21,509 [main           ] DEBUG IntrospectionSupport           - Configured property: useFixedDelay on bean: Consumer[file://data/inbox] with value: true
+2016-07-10 00:32:21,509 [main           ] DEBUG IntrospectionSupport           - Configured property: delay on bean: Consumer[file://data/inbox] with value: 500
+2016-07-10 00:32:21,509 [main           ] DEBUG IntrospectionSupport           - Configured property: backoffMultiplier on bean: Consumer[file://data/inbox] with value: 0
+2016-07-10 00:32:21,509 [main           ] DEBUG IntrospectionSupport           - Configured property: runLoggingLevel on bean: Consumer[file://data/inbox] with value: TRACE
+2016-07-10 00:32:21,509 [main           ] DEBUG IntrospectionSupport           - Configured property: backoffIdleThreshold on bean: Consumer[file://data/inbox] with value: 0
+2016-07-10 00:32:21,510 [main           ] DEBUG RouteService                   - Starting child service on route: route1 -> Channel[sendTo(Endpoint[file://data/outbox])]
+2016-07-10 00:32:21,521 [main           ] DEBUG DefaultManagementAgent         - Registered MBean with ObjectName: org.apache.camel:context=camel-1,type=producers,name=GenericFileProducer(0xf1cdeb)
+2016-07-10 00:32:21,521 [main           ] DEBUG GenericFileProducer            - Starting producer: Producer[file://data/outbox]
+2016-07-10 00:32:21,522 [main           ] DEBUG ProducerCache                  - Adding to producer cache with key: Endpoint[file://data/outbox] for producer: Producer[file://data/outbox]
+2016-07-10 00:32:21,523 [main           ] DEBUG DefaultErrorHandler            - Redelivery enabled: false on error handler: DefaultErrorHandler[Instrumentation:to[sendTo(Endpoint[file://data/outbox])]]
+2016-07-10 00:32:21,523 [main           ] DEBUG RouteService                   - Starting child service on route: route1 -> sendTo(Endpoint[file://data/outbox])
+2016-07-10 00:32:21,538 [main           ] DEBUG DefaultManagementAgent         - Registered MBean with ObjectName: org.apache.camel:context=camel-1,type=processors,name="to1"
+2016-07-10 00:32:21,538 [main           ] DEBUG RouteService                   - Starting child service on route: route1 -> Channel[sendTo(Endpoint[file://data/outbox])]
+2016-07-10 00:32:21,554 [main           ] DEBUG DefaultManagementAgent         - Registered MBean with ObjectName: org.apache.camel:context=camel-1,type=routes,name="route1"
+2016-07-10 00:32:21,554 [main           ] DEBUG TimerListenerManager           - Added TimerListener: org.apache.camel.management.mbean.ManagedSuspendableRoute@2a865a
+2016-07-10 00:32:21,560 [main           ] DEBUG DefaultCamelContext            - Route: route1 >>> EventDrivenConsumerRoute[Endpoint[file://data/inbox] -> Channel[sendTo(Endpoint[file://data/outbox])]]
+2016-07-10 00:32:21,560 [main           ] DEBUG DefaultCamelContext            - Starting consumer (order: 1000) on route: route1
+2016-07-10 00:32:21,566 [main           ] DEBUG DefaultManagementAgent         - Registered MBean with ObjectName: org.apache.camel:context=camel-1,type=consumers,name=FileConsumer(0x13567f1)
+2016-07-10 00:32:21,566 [main           ] DEBUG FileConsumer                   - Starting consumer: Consumer[file://data/inbox]
+2016-07-10 00:32:21,568 [main           ] DEBUG IntrospectionSupport           - Configured property: initialDelay on bean: org.apache.camel.impl.DefaultScheduledPollConsumerScheduler@1e57ae0 with value: 1000
+2016-07-10 00:32:21,568 [main           ] DEBUG IntrospectionSupport           - Configured property: timeUnit on bean: org.apache.camel.impl.DefaultScheduledPollConsumerScheduler@1e57ae0 with value: MILLISECONDS
+2016-07-10 00:32:21,568 [main           ] DEBUG IntrospectionSupport           - Configured property: scheduledExecutorService on bean: org.apache.camel.impl.DefaultScheduledPollConsumerScheduler@1e57ae0 with value: null
+2016-07-10 00:32:21,568 [main           ] DEBUG IntrospectionSupport           - Configured property: useFixedDelay on bean: org.apache.camel.impl.DefaultScheduledPollConsumerScheduler@1e57ae0 with value: true
+2016-07-10 00:32:21,568 [main           ] DEBUG IntrospectionSupport           - Configured property: delay on bean: org.apache.camel.impl.DefaultScheduledPollConsumerScheduler@1e57ae0 with value: 500
+2016-07-10 00:32:21,582 [main           ] DEBUG DefaultManagementAgent         - Registered MBean with ObjectName: org.apache.camel:context=camel-1,type=threadpools,name="FileConsumer(0x13567f1)"
+2016-07-10 00:32:21,582 [main           ] DEBUG DefaultExecutorServiceManager  - Created new ScheduledThreadPool for source: Consumer[file://data/inbox] with name: file://data/inbox. -> org.apache.camel.util.concurrent.SizedScheduledExecutorService@1ed510d[file://data/inbox]
+2016-07-10 00:32:21,582 [main           ] DEBUG ScheduledPollConsumerScheduler - Scheduling poll (fixed delay) with initialDelay: 1000, delay: 500 (milliseconds) for: Endpoint[file://data/inbox]
+2016-07-10 00:32:21,585 [main           ] INFO  DefaultCamelContext            - Route: route1 started and consuming from: Endpoint[file://data/inbox]
+2016-07-10 00:32:21,585 [main           ] DEBUG ultManagementLifecycleStrategy - Load performance statistics disabled
+2016-07-10 00:32:21,585 [main           ] INFO  DefaultCamelContext            - Total 1 routes, of which 1 is started.
+2016-07-10 00:32:21,589 [main           ] INFO  DefaultCamelContext            - Apache Camel 2.15.1.redhat-621084 (CamelContext: camel-1) started in 0.597 seconds
+2016-07-10 00:32:22,590 [le://data/inbox] DEBUG FileEndpoint                   - Parameters for Generic file process strategy {readLockMinAge=0, readLockMarkerFile=true, readLock=markerFile, readLockTimeout=10000, readLockLoggingLevel=WARN, readLockMinLength=1, readLockCheckInterval=1000}
+2016-07-10 00:32:22,628 [le://data/inbox] DEBUG FileEndpoint                   - Using Generic file process strategy: org.apache.camel.component.file.strategy.GenericFileRenameProcessStrategy@6c1838
+2016-07-10 00:32:22,628 [le://data/inbox] DEBUG rFileExclusiveReadLockStrategy - Prepare on startup by deleting orphaned lock files from: data\inbox
+2016-07-10 00:32:22,631 [le://data/inbox] DEBUG FileConsumer                   - Took 0.002 seconds to poll: data\inbox
+2016-07-10 00:32:23,134 [le://data/inbox] DEBUG FileConsumer                   - Took 0.001 seconds to poll: data\inbox
+2016-07-10 00:32:23,636 [le://data/inbox] DEBUG FileConsumer                   - Took 0.001 seconds to poll: data\inbox
+2016-07-10 00:32:24,138 [le://data/inbox] DEBUG FileConsumer                   - Took 0.001 seconds to poll: data\inbox
+2016-07-10 00:32:24,641 [le://data/inbox] DEBUG FileConsumer                   - Took 0.001 seconds to poll: data\inbox
+2016-07-10 00:32:25,142 [le://data/inbox] DEBUG FileConsumer                   - Took 0.000 seconds to poll: data\inbox
+2016-07-10 00:32:25,645 [le://data/inbox] DEBUG FileConsumer                   - Took 0.001 seconds to poll: data\inbox
+2016-07-10 00:32:26,147 [le://data/inbox] DEBUG FileConsumer                   - Took 0.001 seconds to poll: data\inbox
+2016-07-10 00:32:26,649 [le://data/inbox] DEBUG FileConsumer                   - Took 0.001 seconds to poll: data\inbox
+2016-07-10 00:32:27,151 [le://data/inbox] DEBUG FileConsumer                   - Took 0.001 seconds to poll: data\inbox
+2016-07-10 00:32:27,653 [le://data/inbox] DEBUG FileConsumer                   - Took 0.001 seconds to poll: data\inbox
+2016-07-10 00:32:28,156 [le://data/inbox] DEBUG FileConsumer                   - Took 0.001 seconds to poll: data\inbox
+2016-07-10 00:32:28,658 [le://data/inbox] DEBUG FileConsumer                   - Took 0.000 seconds to poll: data\inbox
+2016-07-10 00:32:29,159 [le://data/inbox] DEBUG FileConsumer                   - Took 0.001 seconds to poll: data\inbox
+2016-07-10 00:32:29,663 [le://data/inbox] DEBUG FileConsumer                   - Took 0.001 seconds to poll: data\inbox
+2016-07-10 00:32:30,164 [le://data/inbox] DEBUG FileConsumer                   - Took 0.000 seconds to poll: data\inbox
+2016-07-10 00:32:30,667 [le://data/inbox] DEBUG FileConsumer                   - Took 0.001 seconds to poll: data\inbox
+2016-07-10 00:32:31,170 [le://data/inbox] DEBUG FileConsumer                   - Took 0.001 seconds to poll: data\inbox
+2016-07-10 00:32:31,589 [main           ] INFO  DefaultCamelContext            - Apache Camel 2.15.1.redhat-621084 (CamelContext: camel-1) is shutting down
+2016-07-10 00:32:31,590 [main           ] INFO  DefaultShutdownStrategy        - Starting to graceful shutdown 1 routes (timeout 300 seconds)
+2016-07-10 00:32:31,592 [main           ] DEBUG DefaultExecutorServiceManager  - Created new ThreadPool for source: org.apache.camel.impl.DefaultShutdownStrategy@199c0a3 with name: ShutdownTask. -> org.apache.camel.util.concurrent.RejectableThreadPoolExecutor@87dc72[Running, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0][ShutdownTask]
+2016-07-10 00:32:31,596 [ - ShutdownTask] DEBUG DefaultShutdownStrategy        - There are 1 routes to shutdown
+2016-07-10 00:32:31,598 [ - ShutdownTask] DEBUG DefaultShutdownStrategy        - Route: route1 suspended and shutdown deferred, was consuming from: Endpoint[file://data/inbox]
+2016-07-10 00:32:31,598 [ - ShutdownTask] DEBUG DefaultShutdownStrategy        - Route: route1 preparing to shutdown complete.
+2016-07-10 00:32:31,598 [ - ShutdownTask] DEBUG DefaultExecutorServiceManager  - Forcing shutdown of ExecutorService: org.apache.camel.util.concurrent.SizedScheduledExecutorService@1ed510d[file://data/inbox]
+2016-07-10 00:32:31,599 [ - ShutdownTask] DEBUG DefaultManagementAgent         - Unregistered MBean with ObjectName: org.apache.camel:context=camel-1,type=threadpools,name="FileConsumer(0x13567f1)"
+2016-07-10 00:32:31,599 [ - ShutdownTask] DEBUG FileConsumer                   - Stopping consumer: Consumer[file://data/inbox]
+2016-07-10 00:32:31,600 [ - ShutdownTask] DEBUG SharedProducerServicePool      - Stopping service pool: org.apache.camel.impl.SharedProducerServicePool@d47b5a
+2016-07-10 00:32:31,600 [ - ShutdownTask] DEBUG GenericFileProducer            - Stopping producer: Producer[file://data/outbox]
+2016-07-10 00:32:31,600 [ - ShutdownTask] DEBUG DefaultManagementAgent         - Unregistered MBean with ObjectName: org.apache.camel:context=camel-1,type=producers,name=GenericFileProducer(0xf1cdeb)
+2016-07-10 00:32:31,600 [ - ShutdownTask] INFO  DefaultShutdownStrategy        - Route: route1 shutdown complete, was consuming from: Endpoint[file://data/inbox]
+2016-07-10 00:32:31,601 [main           ] INFO  DefaultShutdownStrategy        - Graceful shutdown of 1 routes completed in 0 seconds
+2016-07-10 00:32:31,601 [main           ] DEBUG aultAsyncProcessorAwaitManager - Shutting down with no inflight threads.
+2016-07-10 00:32:31,601 [main           ] DEBUG TimerListenerManager           - Removed TimerListener: org.apache.camel.management.mbean.ManagedSuspendableRoute@2a865a
+2016-07-10 00:32:31,601 [main           ] DEBUG DefaultManagementAgent         - Unregistered MBean with ObjectName: org.apache.camel:context=camel-1,type=routes,name="route1"
+2016-07-10 00:32:31,601 [main           ] DEBUG RouteService                   - Stopping services on route: route1
+2016-07-10 00:32:31,602 [main           ] DEBUG RouteService                   - Shutting down child service on route: route1 -> Consumer[file://data/inbox]
+2016-07-10 00:32:31,602 [main           ] DEBUG DefaultManagementAgent         - Unregistered MBean with ObjectName: org.apache.camel:context=camel-1,type=consumers,name=FileConsumer(0x13567f1)
+2016-07-10 00:32:31,602 [main           ] DEBUG RouteService                   - Shutting down child service on route: route1 -> Channel[sendTo(Endpoint[file://data/outbox])]
+2016-07-10 00:32:31,602 [main           ] DEBUG RouteService                   - Shutting down child service on route: route1 -> sendTo(Endpoint[file://data/outbox])
+2016-07-10 00:32:31,603 [main           ] DEBUG RouteService                   - Shutting down child service on route: route1 -> Channel[sendTo(Endpoint[file://data/outbox])]
+2016-07-10 00:32:31,603 [main           ] DEBUG RouteService                   - Shutting down services on route: route1
+2016-07-10 00:32:31,604 [main           ] DEBUG TimerListenerManager           - Removed TimerListener: org.apache.camel.management.mbean.ManagedCamelContext@f721e8
+2016-07-10 00:32:31,604 [main           ] DEBUG DefaultManagementAgent         - Unregistered MBean with ObjectName: org.apache.camel:context=camel-1,type=context,name="camel-1"
+2016-07-10 00:32:31,605 [main           ] DEBUG DefaultExecutorServiceManager  - Forcing shutdown of ExecutorService: org.apache.camel.util.concurrent.RejectableThreadPoolExecutor@87dc72[Running, pool size = 1, active threads = 0, queued tasks = 0, completed tasks = 1][ShutdownTask]
+2016-07-10 00:32:31,605 [main           ] DEBUG DefaultInflightRepository      - Shutting down with no inflight exchanges.
+2016-07-10 00:32:31,606 [main           ] DEBUG EventHelper                    - Ignoring notifying event Stopped CamelContext: camel-1. The EventNotifier has not been started yet: org.apache.camel.impl.DefaultRuntimeEndpointRegistry@1f067ff
+2016-07-10 00:32:31,607 [main           ] DEBUG DefaultManagementAgent         - Unregistered MBean with ObjectName: org.apache.camel:context=camel-1,type=eventnotifiers,name=EventNotifier(0x1f067ff)
+2016-07-10 00:32:31,607 [main           ] DEBUG DefaultManagementAgent         - Unregistered MBean with ObjectName: org.apache.camel:context=camel-1,type=services,name=DefaultTypeConverter
+2016-07-10 00:32:31,607 [main           ] DEBUG DefaultManagementAgent         - Unregistered MBean with ObjectName: org.apache.camel:context=camel-1,type=services,name=SharedProducerServicePool
+2016-07-10 00:32:31,607 [main           ] DEBUG DefaultManagementAgent         - Unregistered MBean with ObjectName: org.apache.camel:context=camel-1,type=processors,name="to1"
+2016-07-10 00:32:31,607 [main           ] DEBUG DefaultManagementAgent         - Unregistered MBean with ObjectName: org.apache.camel:context=camel-1,type=endpoints,name="file://data/outbox"
+2016-07-10 00:32:31,608 [main           ] DEBUG DefaultManagementAgent         - Unregistered MBean with ObjectName: org.apache.camel:context=camel-1,type=services,name=DefaultRestRegistry
+2016-07-10 00:32:31,608 [main           ] DEBUG DefaultManagementAgent         - Unregistered MBean with ObjectName: org.apache.camel:context=camel-1,type=endpoints,name="file://data/inbox"
+2016-07-10 00:32:31,608 [main           ] DEBUG DefaultManagementAgent         - Unregistered MBean with ObjectName: org.apache.camel:context=camel-1,type=services,name=DefaultAsyncProcessorAwaitManager
+2016-07-10 00:32:31,608 [main           ] DEBUG DefaultManagementAgent         - Unregistered MBean with ObjectName: org.apache.camel:context=camel-1,type=errorhandlers,name="DefaultErrorHandlerBuilder(ref:CamelDefaultErrorHandlerBuilder)"
+2016-07-10 00:32:31,608 [main           ] DEBUG DefaultManagementAgent         - Unregistered MBean with ObjectName: org.apache.camel:context=camel-1,type=services,name=DefaultPackageScanClassResolver
+2016-07-10 00:32:31,609 [main           ] DEBUG DefaultManagementAgent         - Unregistered MBean with ObjectName: org.apache.camel:context=camel-1,type=services,name=DefaultEndpointRegistry
+2016-07-10 00:32:31,609 [main           ] DEBUG DefaultManagementAgent         - Unregistered MBean with ObjectName: org.apache.camel:context=camel-1,type=tracer,name=BacklogTracer
+2016-07-10 00:32:31,609 [main           ] DEBUG DefaultManagementAgent         - Unregistered MBean with ObjectName: org.apache.camel:context=camel-1,type=tracer,name=BacklogDebugger
+2016-07-10 00:32:31,610 [main           ] DEBUG DefaultManagementAgent         - Unregistered MBean with ObjectName: org.apache.camel:context=camel-1,type=services,name=DefaultInflightRepository
+2016-07-10 00:32:31,610 [main           ] DEBUG DefaultManagementAgent         - Unregistered MBean with ObjectName: org.apache.camel:context=camel-1,type=components,name="file"
+2016-07-10 00:32:31,610 [main           ] DEBUG DefaultManagementAgent         - Unregistered MBean with ObjectName: org.apache.camel:context=camel-1,type=services,name=DefaultShutdownStrategy
+2016-07-10 00:32:31,610 [main           ] DEBUG DefaultManagementAgent         - Unregistered MBean with ObjectName: org.apache.camel:context=camel-1,type=services,name=DefaultExecutorServiceManager
+2016-07-10 00:32:31,611 [main           ] DEBUG IntrospectionSupport           - Clearing cache[size=2, hits=61, misses=52, evicted=0]
+2016-07-10 00:32:31,612 [main           ] INFO  DefaultCamelContext            - Apache Camel 2.15.1.redhat-621084 (CamelContext: camel-1) uptime 10.623 seconds
+2016-07-10 00:32:31,612 [main           ] INFO  DefaultCamelContext            - Apache Camel 2.15.1.redhat-621084 (CamelContext: camel-1) is shutdown in 0.022 seconds
+2016-07-10 00:33:13,833 [main           ] DEBUG DefaultCamelContext            - Adding routes from builder: Routes: []
+2016-07-10 00:33:13,903 [main           ] INFO  DefaultCamelContext            - Apache Camel 2.15.1.redhat-621084 (CamelContext: camel-1) is starting
+2016-07-10 00:33:13,904 [main           ] DEBUG DefaultCamelContext            - Using ClassResolver=org.apache.camel.impl.DefaultClassResolver@17777ae, PackageScanClassResolver=org.apache.camel.impl.DefaultPackageScanClassResolver@527179, ApplicationContextClassLoader=null
+2016-07-10 00:33:13,905 [main           ] INFO  ManagedManagementStrategy      - JMX is enabled
+2016-07-10 00:33:13,982 [main           ] DEBUG DefaultManagementAgent         - Starting JMX agent on server: com.sun.jmx.mbeanserver.JmxMBeanServer@1e8ce62
+2016-07-10 00:33:14,074 [main           ] DEBUG DefaultManagementAgent         - Registered MBean with ObjectName: org.apache.camel:context=camel-1,type=context,name="camel-1"
+2016-07-10 00:33:14,074 [main           ] DEBUG TimerListenerManager           - Added TimerListener: org.apache.camel.management.mbean.ManagedCamelContext@174d77d
+2016-07-10 00:33:14,135 [main           ] DEBUG DefaultManagementAgent         - Registered MBean with ObjectName: org.apache.camel:context=camel-1,type=services,name=DefaultTypeConverter
+2016-07-10 00:33:14,192 [main           ] INFO  DefaultTypeConverter           - Loaded 182 type converters
+2016-07-10 00:33:14,200 [main           ] DEBUG DefaultManagementAgent         - Registered MBean with ObjectName: org.apache.camel:context=camel-1,type=services,name=DefaultEndpointRegistry
+2016-07-10 00:33:14,202 [main           ] DEBUG DefaultManagementAgent         - Registered MBean with ObjectName: org.apache.camel:context=camel-1,type=services,name=DefaultExecutorServiceManager
+2016-07-10 00:33:14,204 [main           ] DEBUG DefaultManagementAgent         - Registered MBean with ObjectName: org.apache.camel:context=camel-1,type=services,name=SharedProducerServicePool
+2016-07-10 00:33:14,204 [main           ] DEBUG SharedProducerServicePool      - Starting service pool: org.apache.camel.impl.SharedProducerServicePool@2c2f49
+2016-07-10 00:33:14,208 [main           ] DEBUG DefaultManagementAgent         - Registered MBean with ObjectName: org.apache.camel:context=camel-1,type=services,name=DefaultInflightRepository
+2016-07-10 00:33:14,215 [main           ] DEBUG DefaultManagementAgent         - Registered MBean with ObjectName: org.apache.camel:context=camel-1,type=services,name=DefaultAsyncProcessorAwaitManager
+2016-07-10 00:33:14,216 [main           ] DEBUG DefaultManagementAgent         - Registered MBean with ObjectName: org.apache.camel:context=camel-1,type=services,name=DefaultShutdownStrategy
+2016-07-10 00:33:14,218 [main           ] DEBUG DefaultManagementAgent         - Registered MBean with ObjectName: org.apache.camel:context=camel-1,type=services,name=DefaultPackageScanClassResolver
+2016-07-10 00:33:14,222 [main           ] DEBUG DefaultManagementAgent         - Registered MBean with ObjectName: org.apache.camel:context=camel-1,type=services,name=DefaultRestRegistry
+2016-07-10 00:33:14,226 [main           ] DEBUG DefaultManagementAgent         - Registered MBean with ObjectName: org.apache.camel:context=camel-1,type=eventnotifiers,name=EventNotifier(0x1b6fa62)
+2016-07-10 00:33:14,243 [main           ] DEBUG DefaultCamelContext            - Using ComponentResolver: org.apache.camel.impl.DefaultComponentResolver@12735cc to resolve component with name: file
+2016-07-10 00:33:14,243 [main           ] DEBUG DefaultComponentResolver       - Found component: file in registry: null
+2016-07-10 00:33:14,254 [main           ] DEBUG DefaultComponentResolver       - Found component: file via type: org.apache.camel.component.file.FileComponent via: META-INF/services/org/apache/camel/component/file
+2016-07-10 00:33:14,269 [main           ] DEBUG DefaultManagementAgent         - Registered MBean with ObjectName: org.apache.camel:context=camel-1,type=components,name="file"
+2016-07-10 00:33:14,270 [main           ] DEBUG DefaultComponent               - Creating endpoint uri=[file://data/inbox], path=[data/inbox]
+2016-07-10 00:33:14,298 [main           ] DEBUG DefaultCamelContext            - file://data/inbox converted to endpoint: Endpoint[file://data/inbox] by component: org.apache.camel.component.file.FileComponent@17b64ab
+2016-07-10 00:33:14,306 [main           ] DEBUG DefaultManagementAgent         - Registered MBean with ObjectName: org.apache.camel:context=camel-1,type=endpoints,name="file://data/inbox"
+2016-07-10 00:33:14,317 [main           ] DEBUG DefaultComponent               - Creating endpoint uri=[file://data/outbox], path=[data/outbox]
+2016-07-10 00:33:14,317 [main           ] DEBUG DefaultCamelContext            - file://data/outbox converted to endpoint: Endpoint[file://data/outbox] by component: org.apache.camel.component.file.FileComponent@17b64ab
+2016-07-10 00:33:14,318 [main           ] DEBUG DefaultManagementAgent         - Registered MBean with ObjectName: org.apache.camel:context=camel-1,type=endpoints,name="file://data/outbox"
+2016-07-10 00:33:14,324 [main           ] DEBUG DefaultChannel                 - Initialize channel for target: 'To[file:data/outbox]'
+2016-07-10 00:33:14,331 [main           ] DEBUG DefaultManagementAgent         - Registered MBean with ObjectName: org.apache.camel:context=camel-1,type=tracer,name=BacklogTracer
+2016-07-10 00:33:14,343 [main           ] DEBUG DefaultManagementAgent         - Registered MBean with ObjectName: org.apache.camel:context=camel-1,type=tracer,name=BacklogDebugger
+2016-07-10 00:33:14,373 [main           ] DEBUG DefaultManagementAgent         - Registered MBean with ObjectName: org.apache.camel:context=camel-1,type=errorhandlers,name="DefaultErrorHandlerBuilder(ref:CamelDefaultErrorHandlerBuilder)"
+2016-07-10 00:33:14,384 [main           ] INFO  DefaultCamelContext            - AllowUseOriginalMessage is enabled. If access to the original message is not needed, then its recommended to turn this option off as it may improve performance.
+2016-07-10 00:33:14,384 [main           ] INFO  DefaultCamelContext            - StreamCaching is not in use. If using streams then its recommended to enable stream caching. See more details at http://camel.apache.org/stream-caching.html
+2016-07-10 00:33:14,385 [main           ] DEBUG DefaultCamelContext            - Warming up route id: route1 having autoStartup=true
+2016-07-10 00:33:14,385 [main           ] DEBUG RouteService                   - Starting services on route: route1
+2016-07-10 00:33:14,392 [main           ] DEBUG IntrospectionSupport           - Configured property: sendEmptyMessageWhenIdle on bean: Consumer[file://data/inbox] with value: false
+2016-07-10 00:33:14,392 [main           ] DEBUG IntrospectionSupport           - Configured property: scheduler on bean: Consumer[file://data/inbox] with value: null
+2016-07-10 00:33:14,392 [main           ] DEBUG IntrospectionSupport           - Configured property: greedy on bean: Consumer[file://data/inbox] with value: false
+2016-07-10 00:33:14,393 [main           ] DEBUG IntrospectionSupport           - Configured property: initialDelay on bean: Consumer[file://data/inbox] with value: 1000
+2016-07-10 00:33:14,393 [main           ] DEBUG IntrospectionSupport           - Configured property: startScheduler on bean: Consumer[file://data/inbox] with value: true
+2016-07-10 00:33:14,394 [main           ] DEBUG IntrospectionSupport           - Configured property: pollStrategy on bean: Consumer[file://data/inbox] with value: org.apache.camel.impl.DefaultPollingConsumerPollStrategy@b535fe
+2016-07-10 00:33:14,394 [main           ] DEBUG IntrospectionSupport           - Configured property: backoffErrorThreshold on bean: Consumer[file://data/inbox] with value: 0
+2016-07-10 00:33:14,395 [main           ] DEBUG IntrospectionSupport           - Configured property: timeUnit on bean: Consumer[file://data/inbox] with value: MILLISECONDS
+2016-07-10 00:33:14,395 [main           ] DEBUG IntrospectionSupport           - Configured property: scheduledExecutorService on bean: Consumer[file://data/inbox] with value: null
+2016-07-10 00:33:14,395 [main           ] DEBUG IntrospectionSupport           - Configured property: schedulerProperties on bean: Consumer[file://data/inbox] with value: null
+2016-07-10 00:33:14,395 [main           ] DEBUG IntrospectionSupport           - Configured property: useFixedDelay on bean: Consumer[file://data/inbox] with value: true
+2016-07-10 00:33:14,395 [main           ] DEBUG IntrospectionSupport           - Configured property: delay on bean: Consumer[file://data/inbox] with value: 500
+2016-07-10 00:33:14,396 [main           ] DEBUG IntrospectionSupport           - Configured property: backoffMultiplier on bean: Consumer[file://data/inbox] with value: 0
+2016-07-10 00:33:14,396 [main           ] DEBUG IntrospectionSupport           - Configured property: runLoggingLevel on bean: Consumer[file://data/inbox] with value: TRACE
+2016-07-10 00:33:14,396 [main           ] DEBUG IntrospectionSupport           - Configured property: backoffIdleThreshold on bean: Consumer[file://data/inbox] with value: 0
+2016-07-10 00:33:14,396 [main           ] DEBUG RouteService                   - Starting child service on route: route1 -> Channel[sendTo(Endpoint[file://data/outbox])]
+2016-07-10 00:33:14,407 [main           ] DEBUG DefaultManagementAgent         - Registered MBean with ObjectName: org.apache.camel:context=camel-1,type=producers,name=GenericFileProducer(0x18d6157)
+2016-07-10 00:33:14,407 [main           ] DEBUG GenericFileProducer            - Starting producer: Producer[file://data/outbox]
+2016-07-10 00:33:14,408 [main           ] DEBUG ProducerCache                  - Adding to producer cache with key: Endpoint[file://data/outbox] for producer: Producer[file://data/outbox]
+2016-07-10 00:33:14,409 [main           ] DEBUG DefaultErrorHandler            - Redelivery enabled: false on error handler: DefaultErrorHandler[Instrumentation:to[sendTo(Endpoint[file://data/outbox])]]
+2016-07-10 00:33:14,409 [main           ] DEBUG RouteService                   - Starting child service on route: route1 -> sendTo(Endpoint[file://data/outbox])
+2016-07-10 00:33:14,422 [main           ] DEBUG DefaultManagementAgent         - Registered MBean with ObjectName: org.apache.camel:context=camel-1,type=processors,name="to1"
+2016-07-10 00:33:14,422 [main           ] DEBUG RouteService                   - Starting child service on route: route1 -> Channel[sendTo(Endpoint[file://data/outbox])]
+2016-07-10 00:33:14,438 [main           ] DEBUG DefaultManagementAgent         - Registered MBean with ObjectName: org.apache.camel:context=camel-1,type=routes,name="route1"
+2016-07-10 00:33:14,438 [main           ] DEBUG TimerListenerManager           - Added TimerListener: org.apache.camel.management.mbean.ManagedSuspendableRoute@1209d1b
+2016-07-10 00:33:14,444 [main           ] DEBUG DefaultCamelContext            - Route: route1 >>> EventDrivenConsumerRoute[Endpoint[file://data/inbox] -> Channel[sendTo(Endpoint[file://data/outbox])]]
+2016-07-10 00:33:14,444 [main           ] DEBUG DefaultCamelContext            - Starting consumer (order: 1000) on route: route1
+2016-07-10 00:33:14,449 [main           ] DEBUG DefaultManagementAgent         - Registered MBean with ObjectName: org.apache.camel:context=camel-1,type=consumers,name=FileConsumer(0xd3b591)
+2016-07-10 00:33:14,449 [main           ] DEBUG FileConsumer                   - Starting consumer: Consumer[file://data/inbox]
+2016-07-10 00:33:14,452 [main           ] DEBUG IntrospectionSupport           - Configured property: initialDelay on bean: org.apache.camel.impl.DefaultScheduledPollConsumerScheduler@aa4a14 with value: 1000
+2016-07-10 00:33:14,452 [main           ] DEBUG IntrospectionSupport           - Configured property: timeUnit on bean: org.apache.camel.impl.DefaultScheduledPollConsumerScheduler@aa4a14 with value: MILLISECONDS
+2016-07-10 00:33:14,452 [main           ] DEBUG IntrospectionSupport           - Configured property: scheduledExecutorService on bean: org.apache.camel.impl.DefaultScheduledPollConsumerScheduler@aa4a14 with value: null
+2016-07-10 00:33:14,452 [main           ] DEBUG IntrospectionSupport           - Configured property: useFixedDelay on bean: org.apache.camel.impl.DefaultScheduledPollConsumerScheduler@aa4a14 with value: true
+2016-07-10 00:33:14,452 [main           ] DEBUG IntrospectionSupport           - Configured property: delay on bean: org.apache.camel.impl.DefaultScheduledPollConsumerScheduler@aa4a14 with value: 500
+2016-07-10 00:33:14,465 [main           ] DEBUG DefaultManagementAgent         - Registered MBean with ObjectName: org.apache.camel:context=camel-1,type=threadpools,name="FileConsumer(0xd3b591)"
+2016-07-10 00:33:14,465 [main           ] DEBUG DefaultExecutorServiceManager  - Created new ScheduledThreadPool for source: Consumer[file://data/inbox] with name: file://data/inbox. -> org.apache.camel.util.concurrent.SizedScheduledExecutorService@ced0c9[file://data/inbox]
+2016-07-10 00:33:14,466 [main           ] DEBUG ScheduledPollConsumerScheduler - Scheduling poll (fixed delay) with initialDelay: 1000, delay: 500 (milliseconds) for: Endpoint[file://data/inbox]
+2016-07-10 00:33:14,468 [main           ] INFO  DefaultCamelContext            - Route: route1 started and consuming from: Endpoint[file://data/inbox]
+2016-07-10 00:33:14,469 [main           ] DEBUG ultManagementLifecycleStrategy - Load performance statistics disabled
+2016-07-10 00:33:14,469 [main           ] INFO  DefaultCamelContext            - Total 1 routes, of which 1 is started.
+2016-07-10 00:33:14,472 [main           ] INFO  DefaultCamelContext            - Apache Camel 2.15.1.redhat-621084 (CamelContext: camel-1) started in 0.570 seconds
+2016-07-10 00:33:15,471 [le://data/inbox] DEBUG FileEndpoint                   - Parameters for Generic file process strategy {readLockMinAge=0, readLockMarkerFile=true, readLock=markerFile, readLockTimeout=10000, readLockLoggingLevel=WARN, readLockMinLength=1, readLockCheckInterval=1000}
+2016-07-10 00:33:15,509 [le://data/inbox] DEBUG FileEndpoint                   - Using Generic file process strategy: org.apache.camel.component.file.strategy.GenericFileRenameProcessStrategy@db09fa
+2016-07-10 00:33:15,509 [le://data/inbox] DEBUG rFileExclusiveReadLockStrategy - Prepare on startup by deleting orphaned lock files from: data\inbox
+2016-07-10 00:33:15,512 [le://data/inbox] DEBUG FileConsumer                   - Took 0.002 seconds to poll: data\inbox
+2016-07-10 00:33:16,014 [le://data/inbox] DEBUG FileConsumer                   - Took 0.000 seconds to poll: data\inbox
+2016-07-10 00:33:16,517 [le://data/inbox] DEBUG FileConsumer                   - Took 0.001 seconds to poll: data\inbox
+2016-07-10 00:33:17,018 [le://data/inbox] DEBUG FileConsumer                   - Took 0.000 seconds to poll: data\inbox
+2016-07-10 00:33:17,521 [le://data/inbox] DEBUG FileConsumer                   - Took 0.000 seconds to poll: data\inbox
+2016-07-10 00:33:18,022 [le://data/inbox] DEBUG FileConsumer                   - Took 0.001 seconds to poll: data\inbox
+2016-07-10 00:33:18,522 [le://data/inbox] DEBUG FileConsumer                   - Took 0.000 seconds to poll: data\inbox
+2016-07-10 00:33:19,024 [le://data/inbox] DEBUG FileConsumer                   - Took 0.001 seconds to poll: data\inbox
+2016-07-10 00:33:19,526 [le://data/inbox] DEBUG FileConsumer                   - Took 0.001 seconds to poll: data\inbox
+2016-07-10 00:33:20,028 [le://data/inbox] DEBUG FileConsumer                   - Took 0.001 seconds to poll: data\inbox
+2016-07-10 00:33:20,530 [le://data/inbox] DEBUG FileConsumer                   - Took 0.001 seconds to poll: data\inbox
+2016-07-10 00:33:21,032 [le://data/inbox] DEBUG FileConsumer                   - Took 0.001 seconds to poll: data\inbox
+2016-07-10 00:33:21,535 [le://data/inbox] DEBUG FileConsumer                   - Took 0.001 seconds to poll: data\inbox
+2016-07-10 00:33:22,037 [le://data/inbox] DEBUG FileConsumer                   - Took 0.001 seconds to poll: data\inbox
+2016-07-10 00:33:22,538 [le://data/inbox] DEBUG FileConsumer                   - Took 0.000 seconds to poll: data\inbox
+2016-07-10 00:33:23,041 [le://data/inbox] DEBUG FileConsumer                   - Took 0.001 seconds to poll: data\inbox
+2016-07-10 00:33:23,543 [le://data/inbox] DEBUG FileConsumer                   - Took 0.000 seconds to poll: data\inbox
+2016-07-10 00:33:24,045 [le://data/inbox] DEBUG FileConsumer                   - Took 0.001 seconds to poll: data\inbox
+2016-07-10 00:33:24,473 [main           ] INFO  DefaultCamelContext            - Apache Camel 2.15.1.redhat-621084 (CamelContext: camel-1) is shutting down
+2016-07-10 00:33:24,474 [main           ] INFO  DefaultShutdownStrategy        - Starting to graceful shutdown 1 routes (timeout 300 seconds)
+2016-07-10 00:33:24,476 [main           ] DEBUG DefaultExecutorServiceManager  - Created new ThreadPool for source: org.apache.camel.impl.DefaultShutdownStrategy@87dc72 with name: ShutdownTask. -> org.apache.camel.util.concurrent.RejectableThreadPoolExecutor@197d2ab[Running, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0][ShutdownTask]
+2016-07-10 00:33:24,480 [ - ShutdownTask] DEBUG DefaultShutdownStrategy        - There are 1 routes to shutdown
+2016-07-10 00:33:24,481 [ - ShutdownTask] DEBUG DefaultShutdownStrategy        - Route: route1 suspended and shutdown deferred, was consuming from: Endpoint[file://data/inbox]
+2016-07-10 00:33:24,482 [ - ShutdownTask] DEBUG DefaultShutdownStrategy        - Route: route1 preparing to shutdown complete.
+2016-07-10 00:33:24,482 [ - ShutdownTask] DEBUG DefaultExecutorServiceManager  - Forcing shutdown of ExecutorService: org.apache.camel.util.concurrent.SizedScheduledExecutorService@ced0c9[file://data/inbox]
+2016-07-10 00:33:24,483 [ - ShutdownTask] DEBUG DefaultManagementAgent         - Unregistered MBean with ObjectName: org.apache.camel:context=camel-1,type=threadpools,name="FileConsumer(0xd3b591)"
+2016-07-10 00:33:24,483 [ - ShutdownTask] DEBUG FileConsumer                   - Stopping consumer: Consumer[file://data/inbox]
+2016-07-10 00:33:24,483 [ - ShutdownTask] DEBUG SharedProducerServicePool      - Stopping service pool: org.apache.camel.impl.SharedProducerServicePool@2c2f49
+2016-07-10 00:33:24,483 [ - ShutdownTask] DEBUG GenericFileProducer            - Stopping producer: Producer[file://data/outbox]
+2016-07-10 00:33:24,484 [ - ShutdownTask] DEBUG DefaultManagementAgent         - Unregistered MBean with ObjectName: org.apache.camel:context=camel-1,type=producers,name=GenericFileProducer(0x18d6157)
+2016-07-10 00:33:24,484 [ - ShutdownTask] INFO  DefaultShutdownStrategy        - Route: route1 shutdown complete, was consuming from: Endpoint[file://data/inbox]
+2016-07-10 00:33:24,484 [main           ] INFO  DefaultShutdownStrategy        - Graceful shutdown of 1 routes completed in 0 seconds
+2016-07-10 00:33:24,484 [main           ] DEBUG aultAsyncProcessorAwaitManager - Shutting down with no inflight threads.
+2016-07-10 00:33:24,485 [main           ] DEBUG TimerListenerManager           - Removed TimerListener: org.apache.camel.management.mbean.ManagedSuspendableRoute@1209d1b
+2016-07-10 00:33:24,485 [main           ] DEBUG DefaultManagementAgent         - Unregistered MBean with ObjectName: org.apache.camel:context=camel-1,type=routes,name="route1"
+2016-07-10 00:33:24,485 [main           ] DEBUG RouteService                   - Stopping services on route: route1
+2016-07-10 00:33:24,485 [main           ] DEBUG RouteService                   - Shutting down child service on route: route1 -> Consumer[file://data/inbox]
+2016-07-10 00:33:24,485 [main           ] DEBUG DefaultManagementAgent         - Unregistered MBean with ObjectName: org.apache.camel:context=camel-1,type=consumers,name=FileConsumer(0xd3b591)
+2016-07-10 00:33:24,486 [main           ] DEBUG RouteService                   - Shutting down child service on route: route1 -> Channel[sendTo(Endpoint[file://data/outbox])]
+2016-07-10 00:33:24,486 [main           ] DEBUG RouteService                   - Shutting down child service on route: route1 -> sendTo(Endpoint[file://data/outbox])
+2016-07-10 00:33:24,486 [main           ] DEBUG RouteService                   - Shutting down child service on route: route1 -> Channel[sendTo(Endpoint[file://data/outbox])]
+2016-07-10 00:33:24,486 [main           ] DEBUG RouteService                   - Shutting down services on route: route1
+2016-07-10 00:33:24,488 [main           ] DEBUG TimerListenerManager           - Removed TimerListener: org.apache.camel.management.mbean.ManagedCamelContext@e475e1
+2016-07-10 00:33:24,488 [main           ] DEBUG DefaultManagementAgent         - Unregistered MBean with ObjectName: org.apache.camel:context=camel-1,type=context,name="camel-1"
+2016-07-10 00:33:24,488 [main           ] DEBUG DefaultExecutorServiceManager  - Forcing shutdown of ExecutorService: org.apache.camel.util.concurrent.RejectableThreadPoolExecutor@197d2ab[Running, pool size = 1, active threads = 0, queued tasks = 0, completed tasks = 1][ShutdownTask]
+2016-07-10 00:33:24,489 [main           ] DEBUG DefaultInflightRepository      - Shutting down with no inflight exchanges.
+2016-07-10 00:33:24,490 [main           ] DEBUG EventHelper                    - Ignoring notifying event Stopped CamelContext: camel-1. The EventNotifier has not been started yet: org.apache.camel.impl.DefaultRuntimeEndpointRegistry@1b6fa62
+2016-07-10 00:33:24,491 [main           ] DEBUG DefaultManagementAgent         - Unregistered MBean with ObjectName: org.apache.camel:context=camel-1,type=services,name=DefaultTypeConverter
+2016-07-10 00:33:24,491 [main           ] DEBUG DefaultManagementAgent         - Unregistered MBean with ObjectName: org.apache.camel:context=camel-1,type=services,name=SharedProducerServicePool
+2016-07-10 00:33:24,491 [main           ] DEBUG DefaultManagementAgent         - Unregistered MBean with ObjectName: org.apache.camel:context=camel-1,type=processors,name="to1"
+2016-07-10 00:33:24,491 [main           ] DEBUG DefaultManagementAgent         - Unregistered MBean with ObjectName: org.apache.camel:context=camel-1,type=eventnotifiers,name=EventNotifier(0x1b6fa62)
+2016-07-10 00:33:24,491 [main           ] DEBUG DefaultManagementAgent         - Unregistered MBean with ObjectName: org.apache.camel:context=camel-1,type=endpoints,name="file://data/outbox"
+2016-07-10 00:33:24,491 [main           ] DEBUG DefaultManagementAgent         - Unregistered MBean with ObjectName: org.apache.camel:context=camel-1,type=services,name=DefaultRestRegistry
+2016-07-10 00:33:24,491 [main           ] DEBUG DefaultManagementAgent         - Unregistered MBean with ObjectName: org.apache.camel:context=camel-1,type=endpoints,name="file://data/inbox"
+2016-07-10 00:33:24,492 [main           ] DEBUG DefaultManagementAgent         - Unregistered MBean with ObjectName: org.apache.camel:context=camel-1,type=services,name=DefaultAsyncProcessorAwaitManager
+2016-07-10 00:33:24,492 [main           ] DEBUG DefaultManagementAgent         - Unregistered MBean with ObjectName: org.apache.camel:context=camel-1,type=errorhandlers,name="DefaultErrorHandlerBuilder(ref:CamelDefaultErrorHandlerBuilder)"
+2016-07-10 00:33:24,492 [main           ] DEBUG DefaultManagementAgent         - Unregistered MBean with ObjectName: org.apache.camel:context=camel-1,type=services,name=DefaultPackageScanClassResolver
+2016-07-10 00:33:24,492 [main           ] DEBUG DefaultManagementAgent         - Unregistered MBean with ObjectName: org.apache.camel:context=camel-1,type=services,name=DefaultEndpointRegistry
+2016-07-10 00:33:24,492 [main           ] DEBUG DefaultManagementAgent         - Unregistered MBean with ObjectName: org.apache.camel:context=camel-1,type=tracer,name=BacklogTracer
+2016-07-10 00:33:24,492 [main           ] DEBUG DefaultManagementAgent         - Unregistered MBean with ObjectName: org.apache.camel:context=camel-1,type=tracer,name=BacklogDebugger
+2016-07-10 00:33:24,492 [main           ] DEBUG DefaultManagementAgent         - Unregistered MBean with ObjectName: org.apache.camel:context=camel-1,type=services,name=DefaultInflightRepository
+2016-07-10 00:33:24,493 [main           ] DEBUG DefaultManagementAgent         - Unregistered MBean with ObjectName: org.apache.camel:context=camel-1,type=components,name="file"
+2016-07-10 00:33:24,493 [main           ] DEBUG DefaultManagementAgent         - Unregistered MBean with ObjectName: org.apache.camel:context=camel-1,type=services,name=DefaultShutdownStrategy
+2016-07-10 00:33:24,493 [main           ] DEBUG DefaultManagementAgent         - Unregistered MBean with ObjectName: org.apache.camel:context=camel-1,type=services,name=DefaultExecutorServiceManager
+2016-07-10 00:33:24,494 [main           ] DEBUG IntrospectionSupport           - Clearing cache[size=2, hits=61, misses=52, evicted=0]
+2016-07-10 00:33:24,495 [main           ] INFO  DefaultCamelContext            - Apache Camel 2.15.1.redhat-621084 (CamelContext: camel-1) uptime 10.595 seconds
+2016-07-10 00:33:24,495 [main           ] INFO  DefaultCamelContext            - Apache Camel 2.15.1.redhat-621084 (CamelContext: camel-1) is shutdown in 0.021 seconds

@@ -1,0 +1,1625 @@
+<log4j:event logger="org.apache.camel.impl.DefaultCamelContext"
+	timestamp="1468089949720" level="DEBUG" thread="main">
+	<log4j:message><![CDATA[Adding routes from builder: Routes: []]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="org.apache.camel.impl.DefaultCamelContext"
+	timestamp="1468089949792" level="INFO" thread="main">
+	<log4j:message><![CDATA[Apache Camel 2.15.1.redhat-621084 (CamelContext: camel-1) is starting]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="org.apache.camel.impl.DefaultCamelContext"
+	timestamp="1468089949793" level="DEBUG" thread="main">
+	<log4j:message><![CDATA[Using ClassResolver=org.apache.camel.impl.DefaultClassResolver@1479df5, PackageScanClassResolver=org.apache.camel.impl.DefaultPackageScanClassResolver@d377df, ApplicationContextClassLoader=null]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="org.apache.camel.management.ManagedManagementStrategy"
+	timestamp="1468089949794" level="INFO" thread="main">
+	<log4j:message><![CDATA[JMX is enabled]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="org.apache.camel.management.DefaultManagementAgent"
+	timestamp="1468089949875" level="DEBUG" thread="main">
+	<log4j:message><![CDATA[Starting JMX agent on server: com.sun.jmx.mbeanserver.JmxMBeanServer@8b5b5]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="org.apache.camel.management.DefaultManagementAgent"
+	timestamp="1468089949968" level="DEBUG" thread="main">
+	<log4j:message><![CDATA[Registered MBean with ObjectName: org.apache.camel:context=camel-1,type=context,name="camel-1"]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="org.apache.camel.support.TimerListenerManager"
+	timestamp="1468089949968" level="DEBUG" thread="main">
+	<log4j:message><![CDATA[Added TimerListener: org.apache.camel.management.mbean.ManagedCamelContext@11876a2]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="org.apache.camel.management.DefaultManagementAgent"
+	timestamp="1468089950033" level="DEBUG" thread="main">
+	<log4j:message><![CDATA[Registered MBean with ObjectName: org.apache.camel:context=camel-1,type=services,name=DefaultTypeConverter]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="org.apache.camel.impl.converter.DefaultTypeConverter"
+	timestamp="1468089950092" level="INFO" thread="main">
+	<log4j:message><![CDATA[Loaded 182 type converters]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="org.apache.camel.management.DefaultManagementAgent"
+	timestamp="1468089950100" level="DEBUG" thread="main">
+	<log4j:message><![CDATA[Registered MBean with ObjectName: org.apache.camel:context=camel-1,type=services,name=DefaultEndpointRegistry]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="org.apache.camel.management.DefaultManagementAgent"
+	timestamp="1468089950102" level="DEBUG" thread="main">
+	<log4j:message><![CDATA[Registered MBean with ObjectName: org.apache.camel:context=camel-1,type=services,name=DefaultExecutorServiceManager]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="org.apache.camel.management.DefaultManagementAgent"
+	timestamp="1468089950104" level="DEBUG" thread="main">
+	<log4j:message><![CDATA[Registered MBean with ObjectName: org.apache.camel:context=camel-1,type=services,name=SharedProducerServicePool]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="org.apache.camel.impl.SharedProducerServicePool"
+	timestamp="1468089950104" level="DEBUG" thread="main">
+	<log4j:message><![CDATA[Starting service pool: org.apache.camel.impl.SharedProducerServicePool@9ee909]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="org.apache.camel.management.DefaultManagementAgent"
+	timestamp="1468089950108" level="DEBUG" thread="main">
+	<log4j:message><![CDATA[Registered MBean with ObjectName: org.apache.camel:context=camel-1,type=services,name=DefaultInflightRepository]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="org.apache.camel.management.DefaultManagementAgent"
+	timestamp="1468089950117" level="DEBUG" thread="main">
+	<log4j:message><![CDATA[Registered MBean with ObjectName: org.apache.camel:context=camel-1,type=services,name=DefaultAsyncProcessorAwaitManager]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="org.apache.camel.management.DefaultManagementAgent"
+	timestamp="1468089950119" level="DEBUG" thread="main">
+	<log4j:message><![CDATA[Registered MBean with ObjectName: org.apache.camel:context=camel-1,type=services,name=DefaultShutdownStrategy]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="org.apache.camel.management.DefaultManagementAgent"
+	timestamp="1468089950120" level="DEBUG" thread="main">
+	<log4j:message><![CDATA[Registered MBean with ObjectName: org.apache.camel:context=camel-1,type=services,name=DefaultPackageScanClassResolver]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="org.apache.camel.management.DefaultManagementAgent"
+	timestamp="1468089950125" level="DEBUG" thread="main">
+	<log4j:message><![CDATA[Registered MBean with ObjectName: org.apache.camel:context=camel-1,type=services,name=DefaultRestRegistry]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="org.apache.camel.management.DefaultManagementAgent"
+	timestamp="1468089950128" level="DEBUG" thread="main">
+	<log4j:message><![CDATA[Registered MBean with ObjectName: org.apache.camel:context=camel-1,type=eventnotifiers,name=EventNotifier(0x2364e5)]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="org.apache.camel.impl.DefaultCamelContext"
+	timestamp="1468089950146" level="DEBUG" thread="main">
+	<log4j:message><![CDATA[Using ComponentResolver: org.apache.camel.impl.DefaultComponentResolver@f3a631 to resolve component with name: file]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="org.apache.camel.impl.DefaultComponentResolver"
+	timestamp="1468089950146" level="DEBUG" thread="main">
+	<log4j:message><![CDATA[Found component: file in registry: null]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="org.apache.camel.impl.DefaultComponentResolver"
+	timestamp="1468089950150" level="DEBUG" thread="main">
+	<log4j:message><![CDATA[Found component: file via type: org.apache.camel.component.file.FileComponent via: META-INF/services/org/apache/camel/component/file]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="org.apache.camel.management.DefaultManagementAgent"
+	timestamp="1468089950171" level="DEBUG" thread="main">
+	<log4j:message><![CDATA[Registered MBean with ObjectName: org.apache.camel:context=camel-1,type=components,name="file"]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="org.apache.camel.impl.DefaultComponent"
+	timestamp="1468089950173" level="DEBUG" thread="main">
+	<log4j:message><![CDATA[Creating endpoint uri=[file://data/inbox], path=[data/inbox]]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="org.apache.camel.impl.DefaultCamelContext"
+	timestamp="1468089950205" level="DEBUG" thread="main">
+	<log4j:message><![CDATA[file://data/inbox converted to endpoint: Endpoint[file://data/inbox] by component: org.apache.camel.component.file.FileComponent@1988f4b]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="org.apache.camel.management.DefaultManagementAgent"
+	timestamp="1468089950213" level="DEBUG" thread="main">
+	<log4j:message><![CDATA[Registered MBean with ObjectName: org.apache.camel:context=camel-1,type=endpoints,name="file://data/inbox"]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="org.apache.camel.impl.DefaultComponent"
+	timestamp="1468089950224" level="DEBUG" thread="main">
+	<log4j:message><![CDATA[Creating endpoint uri=[file://data/outbox], path=[data/outbox]]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="org.apache.camel.impl.DefaultCamelContext"
+	timestamp="1468089950224" level="DEBUG" thread="main">
+	<log4j:message><![CDATA[file://data/outbox converted to endpoint: Endpoint[file://data/outbox] by component: org.apache.camel.component.file.FileComponent@1988f4b]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="org.apache.camel.management.DefaultManagementAgent"
+	timestamp="1468089950226" level="DEBUG" thread="main">
+	<log4j:message><![CDATA[Registered MBean with ObjectName: org.apache.camel:context=camel-1,type=endpoints,name="file://data/outbox"]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="org.apache.camel.processor.interceptor.DefaultChannel"
+	timestamp="1468089950231" level="DEBUG" thread="main">
+	<log4j:message><![CDATA[Initialize channel for target: 'To[file:data/outbox]']]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="org.apache.camel.management.DefaultManagementAgent"
+	timestamp="1468089950239" level="DEBUG" thread="main">
+	<log4j:message><![CDATA[Registered MBean with ObjectName: org.apache.camel:context=camel-1,type=tracer,name=BacklogTracer]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="org.apache.camel.management.DefaultManagementAgent"
+	timestamp="1468089950251" level="DEBUG" thread="main">
+	<log4j:message><![CDATA[Registered MBean with ObjectName: org.apache.camel:context=camel-1,type=tracer,name=BacklogDebugger]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="org.apache.camel.management.DefaultManagementAgent"
+	timestamp="1468089950284" level="DEBUG" thread="main">
+	<log4j:message><![CDATA[Registered MBean with ObjectName: org.apache.camel:context=camel-1,type=errorhandlers,name="DefaultErrorHandlerBuilder(ref:CamelDefaultErrorHandlerBuilder)"]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="org.apache.camel.impl.DefaultCamelContext"
+	timestamp="1468089950294" level="INFO" thread="main">
+	<log4j:message><![CDATA[AllowUseOriginalMessage is enabled. If access to the original message is not needed, then its recommended to turn this option off as it may improve performance.]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="org.apache.camel.impl.DefaultCamelContext"
+	timestamp="1468089950294" level="INFO" thread="main">
+	<log4j:message><![CDATA[StreamCaching is not in use. If using streams then its recommended to enable stream caching. See more details at http://camel.apache.org/stream-caching.html]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="org.apache.camel.impl.DefaultCamelContext"
+	timestamp="1468089950295" level="DEBUG" thread="main">
+	<log4j:message><![CDATA[Warming up route id: route1 having autoStartup=true]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="org.apache.camel.impl.RouteService"
+	timestamp="1468089950295" level="DEBUG" thread="main">
+	<log4j:message><![CDATA[Starting services on route: route1]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="org.apache.camel.util.IntrospectionSupport"
+	timestamp="1468089950301" level="DEBUG" thread="main">
+	<log4j:message><![CDATA[Configured property: sendEmptyMessageWhenIdle on bean: Consumer[file://data/inbox] with value: false]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="org.apache.camel.util.IntrospectionSupport"
+	timestamp="1468089950302" level="DEBUG" thread="main">
+	<log4j:message><![CDATA[Configured property: scheduler on bean: Consumer[file://data/inbox] with value: null]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="org.apache.camel.util.IntrospectionSupport"
+	timestamp="1468089950302" level="DEBUG" thread="main">
+	<log4j:message><![CDATA[Configured property: greedy on bean: Consumer[file://data/inbox] with value: false]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="org.apache.camel.util.IntrospectionSupport"
+	timestamp="1468089950303" level="DEBUG" thread="main">
+	<log4j:message><![CDATA[Configured property: initialDelay on bean: Consumer[file://data/inbox] with value: 1000]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="org.apache.camel.util.IntrospectionSupport"
+	timestamp="1468089950303" level="DEBUG" thread="main">
+	<log4j:message><![CDATA[Configured property: startScheduler on bean: Consumer[file://data/inbox] with value: true]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="org.apache.camel.util.IntrospectionSupport"
+	timestamp="1468089950303" level="DEBUG" thread="main">
+	<log4j:message><![CDATA[Configured property: pollStrategy on bean: Consumer[file://data/inbox] with value: org.apache.camel.impl.DefaultPollingConsumerPollStrategy@bb4e18]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="org.apache.camel.util.IntrospectionSupport"
+	timestamp="1468089950304" level="DEBUG" thread="main">
+	<log4j:message><![CDATA[Configured property: backoffErrorThreshold on bean: Consumer[file://data/inbox] with value: 0]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="org.apache.camel.util.IntrospectionSupport"
+	timestamp="1468089950304" level="DEBUG" thread="main">
+	<log4j:message><![CDATA[Configured property: timeUnit on bean: Consumer[file://data/inbox] with value: MILLISECONDS]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="org.apache.camel.util.IntrospectionSupport"
+	timestamp="1468089950304" level="DEBUG" thread="main">
+	<log4j:message><![CDATA[Configured property: scheduledExecutorService on bean: Consumer[file://data/inbox] with value: null]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="org.apache.camel.util.IntrospectionSupport"
+	timestamp="1468089950305" level="DEBUG" thread="main">
+	<log4j:message><![CDATA[Configured property: schedulerProperties on bean: Consumer[file://data/inbox] with value: null]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="org.apache.camel.util.IntrospectionSupport"
+	timestamp="1468089950305" level="DEBUG" thread="main">
+	<log4j:message><![CDATA[Configured property: useFixedDelay on bean: Consumer[file://data/inbox] with value: true]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="org.apache.camel.util.IntrospectionSupport"
+	timestamp="1468089950305" level="DEBUG" thread="main">
+	<log4j:message><![CDATA[Configured property: delay on bean: Consumer[file://data/inbox] with value: 500]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="org.apache.camel.util.IntrospectionSupport"
+	timestamp="1468089950305" level="DEBUG" thread="main">
+	<log4j:message><![CDATA[Configured property: backoffMultiplier on bean: Consumer[file://data/inbox] with value: 0]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="org.apache.camel.util.IntrospectionSupport"
+	timestamp="1468089950305" level="DEBUG" thread="main">
+	<log4j:message><![CDATA[Configured property: runLoggingLevel on bean: Consumer[file://data/inbox] with value: TRACE]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="org.apache.camel.util.IntrospectionSupport"
+	timestamp="1468089950305" level="DEBUG" thread="main">
+	<log4j:message><![CDATA[Configured property: backoffIdleThreshold on bean: Consumer[file://data/inbox] with value: 0]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="org.apache.camel.impl.RouteService"
+	timestamp="1468089950306" level="DEBUG" thread="main">
+	<log4j:message><![CDATA[Starting child service on route: route1 -> Channel[sendTo(Endpoint[file://data/outbox])]]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="org.apache.camel.management.DefaultManagementAgent"
+	timestamp="1468089950314" level="DEBUG" thread="main">
+	<log4j:message><![CDATA[Registered MBean with ObjectName: org.apache.camel:context=camel-1,type=producers,name=GenericFileProducer(0x1997454)]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="org.apache.camel.component.file.GenericFileProducer"
+	timestamp="1468089950315" level="DEBUG" thread="main">
+	<log4j:message><![CDATA[Starting producer: Producer[file://data/outbox]]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="org.apache.camel.impl.ProducerCache"
+	timestamp="1468089950315" level="DEBUG" thread="main">
+	<log4j:message><![CDATA[Adding to producer cache with key: Endpoint[file://data/outbox] for producer: Producer[file://data/outbox]]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="org.apache.camel.processor.DefaultErrorHandler"
+	timestamp="1468089950316" level="DEBUG" thread="main">
+	<log4j:message><![CDATA[Redelivery enabled: false on error handler: DefaultErrorHandler[Instrumentation:to[sendTo(Endpoint[file://data/outbox])]]]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="org.apache.camel.impl.RouteService"
+	timestamp="1468089950316" level="DEBUG" thread="main">
+	<log4j:message><![CDATA[Starting child service on route: route1 -> sendTo(Endpoint[file://data/outbox])]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="org.apache.camel.management.DefaultManagementAgent"
+	timestamp="1468089950330" level="DEBUG" thread="main">
+	<log4j:message><![CDATA[Registered MBean with ObjectName: org.apache.camel:context=camel-1,type=processors,name="to1"]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="org.apache.camel.impl.RouteService"
+	timestamp="1468089950330" level="DEBUG" thread="main">
+	<log4j:message><![CDATA[Starting child service on route: route1 -> Channel[sendTo(Endpoint[file://data/outbox])]]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="org.apache.camel.management.DefaultManagementAgent"
+	timestamp="1468089950347" level="DEBUG" thread="main">
+	<log4j:message><![CDATA[Registered MBean with ObjectName: org.apache.camel:context=camel-1,type=routes,name="route1"]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="org.apache.camel.support.TimerListenerManager"
+	timestamp="1468089950347" level="DEBUG" thread="main">
+	<log4j:message><![CDATA[Added TimerListener: org.apache.camel.management.mbean.ManagedSuspendableRoute@10c7f9a]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="org.apache.camel.impl.DefaultCamelContext"
+	timestamp="1468089950348" level="DEBUG" thread="main">
+	<log4j:message><![CDATA[Route: route1 >>> EventDrivenConsumerRoute[Endpoint[file://data/inbox] -> Channel[sendTo(Endpoint[file://data/outbox])]]]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="org.apache.camel.impl.DefaultCamelContext"
+	timestamp="1468089950348" level="DEBUG" thread="main">
+	<log4j:message><![CDATA[Starting consumer (order: 1000) on route: route1]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="org.apache.camel.management.DefaultManagementAgent"
+	timestamp="1468089950354" level="DEBUG" thread="main">
+	<log4j:message><![CDATA[Registered MBean with ObjectName: org.apache.camel:context=camel-1,type=consumers,name=FileConsumer(0x18e1bc1)]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="org.apache.camel.component.file.FileConsumer"
+	timestamp="1468089950354" level="DEBUG" thread="main">
+	<log4j:message><![CDATA[Starting consumer: Consumer[file://data/inbox]]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="org.apache.camel.util.IntrospectionSupport"
+	timestamp="1468089950356" level="DEBUG" thread="main">
+	<log4j:message><![CDATA[Configured property: initialDelay on bean: org.apache.camel.impl.DefaultScheduledPollConsumerScheduler@1b532d0 with value: 1000]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="org.apache.camel.util.IntrospectionSupport"
+	timestamp="1468089950356" level="DEBUG" thread="main">
+	<log4j:message><![CDATA[Configured property: timeUnit on bean: org.apache.camel.impl.DefaultScheduledPollConsumerScheduler@1b532d0 with value: MILLISECONDS]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="org.apache.camel.util.IntrospectionSupport"
+	timestamp="1468089950356" level="DEBUG" thread="main">
+	<log4j:message><![CDATA[Configured property: scheduledExecutorService on bean: org.apache.camel.impl.DefaultScheduledPollConsumerScheduler@1b532d0 with value: null]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="org.apache.camel.util.IntrospectionSupport"
+	timestamp="1468089950356" level="DEBUG" thread="main">
+	<log4j:message><![CDATA[Configured property: useFixedDelay on bean: org.apache.camel.impl.DefaultScheduledPollConsumerScheduler@1b532d0 with value: true]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="org.apache.camel.util.IntrospectionSupport"
+	timestamp="1468089950356" level="DEBUG" thread="main">
+	<log4j:message><![CDATA[Configured property: delay on bean: org.apache.camel.impl.DefaultScheduledPollConsumerScheduler@1b532d0 with value: 500]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="org.apache.camel.management.DefaultManagementAgent"
+	timestamp="1468089950369" level="DEBUG" thread="main">
+	<log4j:message><![CDATA[Registered MBean with ObjectName: org.apache.camel:context=camel-1,type=threadpools,name="FileConsumer(0x18e1bc1)"]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="org.apache.camel.impl.DefaultExecutorServiceManager"
+	timestamp="1468089950369" level="DEBUG" thread="main">
+	<log4j:message><![CDATA[Created new ScheduledThreadPool for source: Consumer[file://data/inbox] with name: file://data/inbox. -> org.apache.camel.util.concurrent.SizedScheduledExecutorService@f8e708[file://data/inbox]]]></log4j:message>
+</log4j:event>
+
+<log4j:event
+	logger="org.apache.camel.impl.DefaultScheduledPollConsumerScheduler"
+	timestamp="1468089950370" level="DEBUG" thread="main">
+	<log4j:message><![CDATA[Scheduling poll (fixed delay) with initialDelay: 1000, delay: 500 (milliseconds) for: Endpoint[file://data/inbox]]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="org.apache.camel.impl.DefaultCamelContext"
+	timestamp="1468089950372" level="INFO" thread="main">
+	<log4j:message><![CDATA[Route: route1 started and consuming from: Endpoint[file://data/inbox]]]></log4j:message>
+</log4j:event>
+
+<log4j:event
+	logger="org.apache.camel.management.DefaultManagementLifecycleStrategy"
+	timestamp="1468089950373" level="DEBUG" thread="main">
+	<log4j:message><![CDATA[Load performance statistics disabled]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="org.apache.camel.impl.DefaultCamelContext"
+	timestamp="1468089950373" level="INFO" thread="main">
+	<log4j:message><![CDATA[Total 1 routes, of which 1 is started.]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="org.apache.camel.impl.DefaultCamelContext"
+	timestamp="1468089950377" level="INFO" thread="main">
+	<log4j:message><![CDATA[Apache Camel 2.15.1.redhat-621084 (CamelContext: camel-1) started in 0.585 seconds]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="org.apache.camel.component.file.FileEndpoint"
+	timestamp="1468089951377" level="DEBUG"
+	thread="Camel (camel-1) thread #0 - file://data/inbox">
+	<log4j:message><![CDATA[Parameters for Generic file process strategy {readLockMinAge=0, readLockMarkerFile=true, readLock=markerFile, readLockTimeout=10000, readLockLoggingLevel=WARN, readLockMinLength=1, readLockCheckInterval=1000}]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="org.apache.camel.component.file.FileEndpoint"
+	timestamp="1468089951413" level="DEBUG"
+	thread="Camel (camel-1) thread #0 - file://data/inbox">
+	<log4j:message><![CDATA[Using Generic file process strategy: org.apache.camel.component.file.strategy.GenericFileRenameProcessStrategy@a1eccb]]></log4j:message>
+</log4j:event>
+
+<log4j:event
+	logger="org.apache.camel.component.file.strategy.MarkerFileExclusiveReadLockStrategy"
+	timestamp="1468089951413" level="DEBUG"
+	thread="Camel (camel-1) thread #0 - file://data/inbox">
+	<log4j:message><![CDATA[Prepare on startup by deleting orphaned lock files from: data\inbox]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="org.apache.camel.component.file.FileConsumer"
+	timestamp="1468089951415" level="DEBUG"
+	thread="Camel (camel-1) thread #0 - file://data/inbox">
+	<log4j:message><![CDATA[Took 0.002 seconds to poll: data\inbox]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="org.apache.camel.component.file.FileConsumer"
+	timestamp="1468089951917" level="DEBUG"
+	thread="Camel (camel-1) thread #0 - file://data/inbox">
+	<log4j:message><![CDATA[Took 0.001 seconds to poll: data\inbox]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="org.apache.camel.component.file.FileConsumer"
+	timestamp="1468089952419" level="DEBUG"
+	thread="Camel (camel-1) thread #0 - file://data/inbox">
+	<log4j:message><![CDATA[Took 0.001 seconds to poll: data\inbox]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="org.apache.camel.component.file.FileConsumer"
+	timestamp="1468089952921" level="DEBUG"
+	thread="Camel (camel-1) thread #0 - file://data/inbox">
+	<log4j:message><![CDATA[Took 0.001 seconds to poll: data\inbox]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="org.apache.camel.component.file.FileConsumer"
+	timestamp="1468089953423" level="DEBUG"
+	thread="Camel (camel-1) thread #0 - file://data/inbox">
+	<log4j:message><![CDATA[Took 0.000 seconds to poll: data\inbox]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="org.apache.camel.component.file.FileConsumer"
+	timestamp="1468089953926" level="DEBUG"
+	thread="Camel (camel-1) thread #0 - file://data/inbox">
+	<log4j:message><![CDATA[Took 0.001 seconds to poll: data\inbox]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="org.apache.camel.component.file.FileConsumer"
+	timestamp="1468089954428" level="DEBUG"
+	thread="Camel (camel-1) thread #0 - file://data/inbox">
+	<log4j:message><![CDATA[Took 0.001 seconds to poll: data\inbox]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="org.apache.camel.component.file.FileConsumer"
+	timestamp="1468089954930" level="DEBUG"
+	thread="Camel (camel-1) thread #0 - file://data/inbox">
+	<log4j:message><![CDATA[Took 0.001 seconds to poll: data\inbox]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="org.apache.camel.impl.DefaultCamelContext"
+	timestamp="1468089971891" level="DEBUG" thread="main">
+	<log4j:message><![CDATA[Adding routes from builder: Routes: []]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="org.apache.camel.impl.DefaultCamelContext"
+	timestamp="1468089971963" level="INFO" thread="main">
+	<log4j:message><![CDATA[Apache Camel 2.15.1.redhat-621084 (CamelContext: camel-1) is starting]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="org.apache.camel.impl.DefaultCamelContext"
+	timestamp="1468089971964" level="DEBUG" thread="main">
+	<log4j:message><![CDATA[Using ClassResolver=org.apache.camel.impl.DefaultClassResolver@1479df5, PackageScanClassResolver=org.apache.camel.impl.DefaultPackageScanClassResolver@d377df, ApplicationContextClassLoader=null]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="org.apache.camel.management.ManagedManagementStrategy"
+	timestamp="1468089971965" level="INFO" thread="main">
+	<log4j:message><![CDATA[JMX is enabled]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="org.apache.camel.management.DefaultManagementAgent"
+	timestamp="1468089972045" level="DEBUG" thread="main">
+	<log4j:message><![CDATA[Starting JMX agent on server: com.sun.jmx.mbeanserver.JmxMBeanServer@8b5b5]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="org.apache.camel.management.DefaultManagementAgent"
+	timestamp="1468089972138" level="DEBUG" thread="main">
+	<log4j:message><![CDATA[Registered MBean with ObjectName: org.apache.camel:context=camel-1,type=context,name="camel-1"]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="org.apache.camel.support.TimerListenerManager"
+	timestamp="1468089972138" level="DEBUG" thread="main">
+	<log4j:message><![CDATA[Added TimerListener: org.apache.camel.management.mbean.ManagedCamelContext@11876a2]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="org.apache.camel.management.DefaultManagementAgent"
+	timestamp="1468089972199" level="DEBUG" thread="main">
+	<log4j:message><![CDATA[Registered MBean with ObjectName: org.apache.camel:context=camel-1,type=services,name=DefaultTypeConverter]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="org.apache.camel.impl.converter.DefaultTypeConverter"
+	timestamp="1468089972258" level="INFO" thread="main">
+	<log4j:message><![CDATA[Loaded 182 type converters]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="org.apache.camel.management.DefaultManagementAgent"
+	timestamp="1468089972266" level="DEBUG" thread="main">
+	<log4j:message><![CDATA[Registered MBean with ObjectName: org.apache.camel:context=camel-1,type=services,name=DefaultEndpointRegistry]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="org.apache.camel.management.DefaultManagementAgent"
+	timestamp="1468089972268" level="DEBUG" thread="main">
+	<log4j:message><![CDATA[Registered MBean with ObjectName: org.apache.camel:context=camel-1,type=services,name=DefaultExecutorServiceManager]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="org.apache.camel.management.DefaultManagementAgent"
+	timestamp="1468089972269" level="DEBUG" thread="main">
+	<log4j:message><![CDATA[Registered MBean with ObjectName: org.apache.camel:context=camel-1,type=services,name=SharedProducerServicePool]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="org.apache.camel.impl.SharedProducerServicePool"
+	timestamp="1468089972269" level="DEBUG" thread="main">
+	<log4j:message><![CDATA[Starting service pool: org.apache.camel.impl.SharedProducerServicePool@3d2e1e]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="org.apache.camel.management.DefaultManagementAgent"
+	timestamp="1468089972274" level="DEBUG" thread="main">
+	<log4j:message><![CDATA[Registered MBean with ObjectName: org.apache.camel:context=camel-1,type=services,name=DefaultInflightRepository]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="org.apache.camel.management.DefaultManagementAgent"
+	timestamp="1468089972281" level="DEBUG" thread="main">
+	<log4j:message><![CDATA[Registered MBean with ObjectName: org.apache.camel:context=camel-1,type=services,name=DefaultAsyncProcessorAwaitManager]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="org.apache.camel.management.DefaultManagementAgent"
+	timestamp="1468089972282" level="DEBUG" thread="main">
+	<log4j:message><![CDATA[Registered MBean with ObjectName: org.apache.camel:context=camel-1,type=services,name=DefaultShutdownStrategy]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="org.apache.camel.management.DefaultManagementAgent"
+	timestamp="1468089972284" level="DEBUG" thread="main">
+	<log4j:message><![CDATA[Registered MBean with ObjectName: org.apache.camel:context=camel-1,type=services,name=DefaultPackageScanClassResolver]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="org.apache.camel.management.DefaultManagementAgent"
+	timestamp="1468089972288" level="DEBUG" thread="main">
+	<log4j:message><![CDATA[Registered MBean with ObjectName: org.apache.camel:context=camel-1,type=services,name=DefaultRestRegistry]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="org.apache.camel.management.DefaultManagementAgent"
+	timestamp="1468089972291" level="DEBUG" thread="main">
+	<log4j:message><![CDATA[Registered MBean with ObjectName: org.apache.camel:context=camel-1,type=eventnotifiers,name=EventNotifier(0x9046f8)]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="org.apache.camel.impl.DefaultCamelContext"
+	timestamp="1468089972309" level="DEBUG" thread="main">
+	<log4j:message><![CDATA[Using ComponentResolver: org.apache.camel.impl.DefaultComponentResolver@1daf0bf to resolve component with name: file]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="org.apache.camel.impl.DefaultComponentResolver"
+	timestamp="1468089972309" level="DEBUG" thread="main">
+	<log4j:message><![CDATA[Found component: file in registry: null]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="org.apache.camel.impl.DefaultComponentResolver"
+	timestamp="1468089972313" level="DEBUG" thread="main">
+	<log4j:message><![CDATA[Found component: file via type: org.apache.camel.component.file.FileComponent via: META-INF/services/org/apache/camel/component/file]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="org.apache.camel.management.DefaultManagementAgent"
+	timestamp="1468089972334" level="DEBUG" thread="main">
+	<log4j:message><![CDATA[Registered MBean with ObjectName: org.apache.camel:context=camel-1,type=components,name="file"]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="org.apache.camel.impl.DefaultComponent"
+	timestamp="1468089972336" level="DEBUG" thread="main">
+	<log4j:message><![CDATA[Creating endpoint uri=[file://data/inbox], path=[data/inbox]]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="org.apache.camel.impl.DefaultCamelContext"
+	timestamp="1468089972367" level="DEBUG" thread="main">
+	<log4j:message><![CDATA[file://data/inbox converted to endpoint: Endpoint[file://data/inbox] by component: org.apache.camel.component.file.FileComponent@36eb66]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="org.apache.camel.management.DefaultManagementAgent"
+	timestamp="1468089972376" level="DEBUG" thread="main">
+	<log4j:message><![CDATA[Registered MBean with ObjectName: org.apache.camel:context=camel-1,type=endpoints,name="file://data/inbox"]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="org.apache.camel.impl.DefaultComponent"
+	timestamp="1468089972386" level="DEBUG" thread="main">
+	<log4j:message><![CDATA[Creating endpoint uri=[file://data/outbox], path=[data/outbox]]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="org.apache.camel.impl.DefaultCamelContext"
+	timestamp="1468089972387" level="DEBUG" thread="main">
+	<log4j:message><![CDATA[file://data/outbox converted to endpoint: Endpoint[file://data/outbox] by component: org.apache.camel.component.file.FileComponent@36eb66]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="org.apache.camel.management.DefaultManagementAgent"
+	timestamp="1468089972388" level="DEBUG" thread="main">
+	<log4j:message><![CDATA[Registered MBean with ObjectName: org.apache.camel:context=camel-1,type=endpoints,name="file://data/outbox"]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="org.apache.camel.processor.interceptor.DefaultChannel"
+	timestamp="1468089972393" level="DEBUG" thread="main">
+	<log4j:message><![CDATA[Initialize channel for target: 'To[file:data/outbox]']]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="org.apache.camel.management.DefaultManagementAgent"
+	timestamp="1468089972401" level="DEBUG" thread="main">
+	<log4j:message><![CDATA[Registered MBean with ObjectName: org.apache.camel:context=camel-1,type=tracer,name=BacklogTracer]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="org.apache.camel.management.DefaultManagementAgent"
+	timestamp="1468089972413" level="DEBUG" thread="main">
+	<log4j:message><![CDATA[Registered MBean with ObjectName: org.apache.camel:context=camel-1,type=tracer,name=BacklogDebugger]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="org.apache.camel.management.DefaultManagementAgent"
+	timestamp="1468089972443" level="DEBUG" thread="main">
+	<log4j:message><![CDATA[Registered MBean with ObjectName: org.apache.camel:context=camel-1,type=errorhandlers,name="DefaultErrorHandlerBuilder(ref:CamelDefaultErrorHandlerBuilder)"]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="org.apache.camel.impl.DefaultCamelContext"
+	timestamp="1468089972453" level="INFO" thread="main">
+	<log4j:message><![CDATA[AllowUseOriginalMessage is enabled. If access to the original message is not needed, then its recommended to turn this option off as it may improve performance.]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="org.apache.camel.impl.DefaultCamelContext"
+	timestamp="1468089972453" level="INFO" thread="main">
+	<log4j:message><![CDATA[StreamCaching is not in use. If using streams then its recommended to enable stream caching. See more details at http://camel.apache.org/stream-caching.html]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="org.apache.camel.impl.DefaultCamelContext"
+	timestamp="1468089972454" level="DEBUG" thread="main">
+	<log4j:message><![CDATA[Warming up route id: route1 having autoStartup=true]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="org.apache.camel.impl.RouteService"
+	timestamp="1468089972454" level="DEBUG" thread="main">
+	<log4j:message><![CDATA[Starting services on route: route1]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="org.apache.camel.util.IntrospectionSupport"
+	timestamp="1468089972460" level="DEBUG" thread="main">
+	<log4j:message><![CDATA[Configured property: sendEmptyMessageWhenIdle on bean: Consumer[file://data/inbox] with value: false]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="org.apache.camel.util.IntrospectionSupport"
+	timestamp="1468089972461" level="DEBUG" thread="main">
+	<log4j:message><![CDATA[Configured property: scheduler on bean: Consumer[file://data/inbox] with value: null]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="org.apache.camel.util.IntrospectionSupport"
+	timestamp="1468089972461" level="DEBUG" thread="main">
+	<log4j:message><![CDATA[Configured property: greedy on bean: Consumer[file://data/inbox] with value: false]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="org.apache.camel.util.IntrospectionSupport"
+	timestamp="1468089972462" level="DEBUG" thread="main">
+	<log4j:message><![CDATA[Configured property: initialDelay on bean: Consumer[file://data/inbox] with value: 1000]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="org.apache.camel.util.IntrospectionSupport"
+	timestamp="1468089972462" level="DEBUG" thread="main">
+	<log4j:message><![CDATA[Configured property: startScheduler on bean: Consumer[file://data/inbox] with value: true]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="org.apache.camel.util.IntrospectionSupport"
+	timestamp="1468089972462" level="DEBUG" thread="main">
+	<log4j:message><![CDATA[Configured property: pollStrategy on bean: Consumer[file://data/inbox] with value: org.apache.camel.impl.DefaultPollingConsumerPollStrategy@36a9a4]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="org.apache.camel.util.IntrospectionSupport"
+	timestamp="1468089972463" level="DEBUG" thread="main">
+	<log4j:message><![CDATA[Configured property: backoffErrorThreshold on bean: Consumer[file://data/inbox] with value: 0]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="org.apache.camel.util.IntrospectionSupport"
+	timestamp="1468089972463" level="DEBUG" thread="main">
+	<log4j:message><![CDATA[Configured property: timeUnit on bean: Consumer[file://data/inbox] with value: MILLISECONDS]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="org.apache.camel.util.IntrospectionSupport"
+	timestamp="1468089972463" level="DEBUG" thread="main">
+	<log4j:message><![CDATA[Configured property: scheduledExecutorService on bean: Consumer[file://data/inbox] with value: null]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="org.apache.camel.util.IntrospectionSupport"
+	timestamp="1468089972464" level="DEBUG" thread="main">
+	<log4j:message><![CDATA[Configured property: schedulerProperties on bean: Consumer[file://data/inbox] with value: null]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="org.apache.camel.util.IntrospectionSupport"
+	timestamp="1468089972464" level="DEBUG" thread="main">
+	<log4j:message><![CDATA[Configured property: useFixedDelay on bean: Consumer[file://data/inbox] with value: true]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="org.apache.camel.util.IntrospectionSupport"
+	timestamp="1468089972464" level="DEBUG" thread="main">
+	<log4j:message><![CDATA[Configured property: delay on bean: Consumer[file://data/inbox] with value: 500]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="org.apache.camel.util.IntrospectionSupport"
+	timestamp="1468089972464" level="DEBUG" thread="main">
+	<log4j:message><![CDATA[Configured property: backoffMultiplier on bean: Consumer[file://data/inbox] with value: 0]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="org.apache.camel.util.IntrospectionSupport"
+	timestamp="1468089972464" level="DEBUG" thread="main">
+	<log4j:message><![CDATA[Configured property: runLoggingLevel on bean: Consumer[file://data/inbox] with value: TRACE]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="org.apache.camel.util.IntrospectionSupport"
+	timestamp="1468089972464" level="DEBUG" thread="main">
+	<log4j:message><![CDATA[Configured property: backoffIdleThreshold on bean: Consumer[file://data/inbox] with value: 0]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="org.apache.camel.impl.RouteService"
+	timestamp="1468089972465" level="DEBUG" thread="main">
+	<log4j:message><![CDATA[Starting child service on route: route1 -> Channel[sendTo(Endpoint[file://data/outbox])]]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="org.apache.camel.management.DefaultManagementAgent"
+	timestamp="1468089972473" level="DEBUG" thread="main">
+	<log4j:message><![CDATA[Registered MBean with ObjectName: org.apache.camel:context=camel-1,type=producers,name=GenericFileProducer(0x16c7d59)]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="org.apache.camel.component.file.GenericFileProducer"
+	timestamp="1468089972473" level="DEBUG" thread="main">
+	<log4j:message><![CDATA[Starting producer: Producer[file://data/outbox]]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="org.apache.camel.impl.ProducerCache"
+	timestamp="1468089972474" level="DEBUG" thread="main">
+	<log4j:message><![CDATA[Adding to producer cache with key: Endpoint[file://data/outbox] for producer: Producer[file://data/outbox]]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="org.apache.camel.processor.DefaultErrorHandler"
+	timestamp="1468089972475" level="DEBUG" thread="main">
+	<log4j:message><![CDATA[Redelivery enabled: false on error handler: DefaultErrorHandler[Instrumentation:to[sendTo(Endpoint[file://data/outbox])]]]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="org.apache.camel.impl.RouteService"
+	timestamp="1468089972475" level="DEBUG" thread="main">
+	<log4j:message><![CDATA[Starting child service on route: route1 -> sendTo(Endpoint[file://data/outbox])]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="org.apache.camel.management.DefaultManagementAgent"
+	timestamp="1468089972488" level="DEBUG" thread="main">
+	<log4j:message><![CDATA[Registered MBean with ObjectName: org.apache.camel:context=camel-1,type=processors,name="to1"]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="org.apache.camel.impl.RouteService"
+	timestamp="1468089972489" level="DEBUG" thread="main">
+	<log4j:message><![CDATA[Starting child service on route: route1 -> Channel[sendTo(Endpoint[file://data/outbox])]]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="org.apache.camel.management.DefaultManagementAgent"
+	timestamp="1468089972506" level="DEBUG" thread="main">
+	<log4j:message><![CDATA[Registered MBean with ObjectName: org.apache.camel:context=camel-1,type=routes,name="route1"]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="org.apache.camel.support.TimerListenerManager"
+	timestamp="1468089972506" level="DEBUG" thread="main">
+	<log4j:message><![CDATA[Added TimerListener: org.apache.camel.management.mbean.ManagedSuspendableRoute@1b69954]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="org.apache.camel.impl.DefaultCamelContext"
+	timestamp="1468089972507" level="DEBUG" thread="main">
+	<log4j:message><![CDATA[Route: route1 >>> EventDrivenConsumerRoute[Endpoint[file://data/inbox] -> Channel[sendTo(Endpoint[file://data/outbox])]]]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="org.apache.camel.impl.DefaultCamelContext"
+	timestamp="1468089972507" level="DEBUG" thread="main">
+	<log4j:message><![CDATA[Starting consumer (order: 1000) on route: route1]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="org.apache.camel.management.DefaultManagementAgent"
+	timestamp="1468089972513" level="DEBUG" thread="main">
+	<log4j:message><![CDATA[Registered MBean with ObjectName: org.apache.camel:context=camel-1,type=consumers,name=FileConsumer(0xe55a57)]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="org.apache.camel.component.file.FileConsumer"
+	timestamp="1468089972513" level="DEBUG" thread="main">
+	<log4j:message><![CDATA[Starting consumer: Consumer[file://data/inbox]]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="org.apache.camel.util.IntrospectionSupport"
+	timestamp="1468089972515" level="DEBUG" thread="main">
+	<log4j:message><![CDATA[Configured property: initialDelay on bean: org.apache.camel.impl.DefaultScheduledPollConsumerScheduler@e26e44 with value: 1000]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="org.apache.camel.util.IntrospectionSupport"
+	timestamp="1468089972515" level="DEBUG" thread="main">
+	<log4j:message><![CDATA[Configured property: timeUnit on bean: org.apache.camel.impl.DefaultScheduledPollConsumerScheduler@e26e44 with value: MILLISECONDS]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="org.apache.camel.util.IntrospectionSupport"
+	timestamp="1468089972515" level="DEBUG" thread="main">
+	<log4j:message><![CDATA[Configured property: scheduledExecutorService on bean: org.apache.camel.impl.DefaultScheduledPollConsumerScheduler@e26e44 with value: null]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="org.apache.camel.util.IntrospectionSupport"
+	timestamp="1468089972515" level="DEBUG" thread="main">
+	<log4j:message><![CDATA[Configured property: useFixedDelay on bean: org.apache.camel.impl.DefaultScheduledPollConsumerScheduler@e26e44 with value: true]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="org.apache.camel.util.IntrospectionSupport"
+	timestamp="1468089972516" level="DEBUG" thread="main">
+	<log4j:message><![CDATA[Configured property: delay on bean: org.apache.camel.impl.DefaultScheduledPollConsumerScheduler@e26e44 with value: 500]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="org.apache.camel.management.DefaultManagementAgent"
+	timestamp="1468089972529" level="DEBUG" thread="main">
+	<log4j:message><![CDATA[Registered MBean with ObjectName: org.apache.camel:context=camel-1,type=threadpools,name="FileConsumer(0xe55a57)"]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="org.apache.camel.impl.DefaultExecutorServiceManager"
+	timestamp="1468089972529" level="DEBUG" thread="main">
+	<log4j:message><![CDATA[Created new ScheduledThreadPool for source: Consumer[file://data/inbox] with name: file://data/inbox. -> org.apache.camel.util.concurrent.SizedScheduledExecutorService@50a6d4[file://data/inbox]]]></log4j:message>
+</log4j:event>
+
+<log4j:event
+	logger="org.apache.camel.impl.DefaultScheduledPollConsumerScheduler"
+	timestamp="1468089972529" level="DEBUG" thread="main">
+	<log4j:message><![CDATA[Scheduling poll (fixed delay) with initialDelay: 1000, delay: 500 (milliseconds) for: Endpoint[file://data/inbox]]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="org.apache.camel.impl.DefaultCamelContext"
+	timestamp="1468089972532" level="INFO" thread="main">
+	<log4j:message><![CDATA[Route: route1 started and consuming from: Endpoint[file://data/inbox]]]></log4j:message>
+</log4j:event>
+
+<log4j:event
+	logger="org.apache.camel.management.DefaultManagementLifecycleStrategy"
+	timestamp="1468089972533" level="DEBUG" thread="main">
+	<log4j:message><![CDATA[Load performance statistics disabled]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="org.apache.camel.impl.DefaultCamelContext"
+	timestamp="1468089972533" level="INFO" thread="main">
+	<log4j:message><![CDATA[Total 1 routes, of which 1 is started.]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="org.apache.camel.impl.DefaultCamelContext"
+	timestamp="1468089972537" level="INFO" thread="main">
+	<log4j:message><![CDATA[Apache Camel 2.15.1.redhat-621084 (CamelContext: camel-1) started in 0.574 seconds]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="org.apache.camel.impl.DefaultCamelContext"
+	timestamp="1468089995744" level="DEBUG" thread="main">
+	<log4j:message><![CDATA[Adding routes from builder: Routes: []]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="org.apache.camel.impl.DefaultCamelContext"
+	timestamp="1468089995817" level="INFO" thread="main">
+	<log4j:message><![CDATA[Apache Camel 2.15.1.redhat-621084 (CamelContext: camel-1) is starting]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="org.apache.camel.impl.DefaultCamelContext"
+	timestamp="1468089995818" level="DEBUG" thread="main">
+	<log4j:message><![CDATA[Using ClassResolver=org.apache.camel.impl.DefaultClassResolver@ea27b7, PackageScanClassResolver=org.apache.camel.impl.DefaultPackageScanClassResolver@d58f09, ApplicationContextClassLoader=null]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="org.apache.camel.management.ManagedManagementStrategy"
+	timestamp="1468089995819" level="INFO" thread="main">
+	<log4j:message><![CDATA[JMX is enabled]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="org.apache.camel.management.DefaultManagementAgent"
+	timestamp="1468089995900" level="DEBUG" thread="main">
+	<log4j:message><![CDATA[Starting JMX agent on server: com.sun.jmx.mbeanserver.JmxMBeanServer@1a51ac0]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="org.apache.camel.management.DefaultManagementAgent"
+	timestamp="1468089995993" level="DEBUG" thread="main">
+	<log4j:message><![CDATA[Registered MBean with ObjectName: org.apache.camel:context=camel-1,type=context,name="camel-1"]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="org.apache.camel.support.TimerListenerManager"
+	timestamp="1468089995993" level="DEBUG" thread="main">
+	<log4j:message><![CDATA[Added TimerListener: org.apache.camel.management.mbean.ManagedCamelContext@b60fbb]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="org.apache.camel.management.DefaultManagementAgent"
+	timestamp="1468089996057" level="DEBUG" thread="main">
+	<log4j:message><![CDATA[Registered MBean with ObjectName: org.apache.camel:context=camel-1,type=services,name=DefaultTypeConverter]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="org.apache.camel.impl.converter.DefaultTypeConverter"
+	timestamp="1468089996116" level="INFO" thread="main">
+	<log4j:message><![CDATA[Loaded 182 type converters]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="org.apache.camel.management.DefaultManagementAgent"
+	timestamp="1468089996124" level="DEBUG" thread="main">
+	<log4j:message><![CDATA[Registered MBean with ObjectName: org.apache.camel:context=camel-1,type=services,name=DefaultEndpointRegistry]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="org.apache.camel.management.DefaultManagementAgent"
+	timestamp="1468089996126" level="DEBUG" thread="main">
+	<log4j:message><![CDATA[Registered MBean with ObjectName: org.apache.camel:context=camel-1,type=services,name=DefaultExecutorServiceManager]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="org.apache.camel.management.DefaultManagementAgent"
+	timestamp="1468089996127" level="DEBUG" thread="main">
+	<log4j:message><![CDATA[Registered MBean with ObjectName: org.apache.camel:context=camel-1,type=services,name=SharedProducerServicePool]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="org.apache.camel.impl.SharedProducerServicePool"
+	timestamp="1468089996127" level="DEBUG" thread="main">
+	<log4j:message><![CDATA[Starting service pool: org.apache.camel.impl.SharedProducerServicePool@11d21e1]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="org.apache.camel.management.DefaultManagementAgent"
+	timestamp="1468089996132" level="DEBUG" thread="main">
+	<log4j:message><![CDATA[Registered MBean with ObjectName: org.apache.camel:context=camel-1,type=services,name=DefaultInflightRepository]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="org.apache.camel.management.DefaultManagementAgent"
+	timestamp="1468089996138" level="DEBUG" thread="main">
+	<log4j:message><![CDATA[Registered MBean with ObjectName: org.apache.camel:context=camel-1,type=services,name=DefaultAsyncProcessorAwaitManager]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="org.apache.camel.management.DefaultManagementAgent"
+	timestamp="1468089996140" level="DEBUG" thread="main">
+	<log4j:message><![CDATA[Registered MBean with ObjectName: org.apache.camel:context=camel-1,type=services,name=DefaultShutdownStrategy]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="org.apache.camel.management.DefaultManagementAgent"
+	timestamp="1468089996141" level="DEBUG" thread="main">
+	<log4j:message><![CDATA[Registered MBean with ObjectName: org.apache.camel:context=camel-1,type=services,name=DefaultPackageScanClassResolver]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="org.apache.camel.management.DefaultManagementAgent"
+	timestamp="1468089996145" level="DEBUG" thread="main">
+	<log4j:message><![CDATA[Registered MBean with ObjectName: org.apache.camel:context=camel-1,type=services,name=DefaultRestRegistry]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="org.apache.camel.management.DefaultManagementAgent"
+	timestamp="1468089996149" level="DEBUG" thread="main">
+	<log4j:message><![CDATA[Registered MBean with ObjectName: org.apache.camel:context=camel-1,type=eventnotifiers,name=EventNotifier(0x9598c0)]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="org.apache.camel.impl.DefaultCamelContext"
+	timestamp="1468089996167" level="DEBUG" thread="main">
+	<log4j:message><![CDATA[Using ComponentResolver: org.apache.camel.impl.DefaultComponentResolver@da173c to resolve component with name: file]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="org.apache.camel.impl.DefaultComponentResolver"
+	timestamp="1468089996167" level="DEBUG" thread="main">
+	<log4j:message><![CDATA[Found component: file in registry: null]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="org.apache.camel.impl.DefaultComponentResolver"
+	timestamp="1468089996170" level="DEBUG" thread="main">
+	<log4j:message><![CDATA[Found component: file via type: org.apache.camel.component.file.FileComponent via: META-INF/services/org/apache/camel/component/file]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="org.apache.camel.management.DefaultManagementAgent"
+	timestamp="1468089996193" level="DEBUG" thread="main">
+	<log4j:message><![CDATA[Registered MBean with ObjectName: org.apache.camel:context=camel-1,type=components,name="file"]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="org.apache.camel.impl.DefaultComponent"
+	timestamp="1468089996194" level="DEBUG" thread="main">
+	<log4j:message><![CDATA[Creating endpoint uri=[file://data/inbox], path=[data/inbox]]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="org.apache.camel.impl.DefaultCamelContext"
+	timestamp="1468089996227" level="DEBUG" thread="main">
+	<log4j:message><![CDATA[file://data/inbox converted to endpoint: Endpoint[file://data/inbox] by component: org.apache.camel.component.file.FileComponent@15525a1]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="org.apache.camel.management.DefaultManagementAgent"
+	timestamp="1468089996235" level="DEBUG" thread="main">
+	<log4j:message><![CDATA[Registered MBean with ObjectName: org.apache.camel:context=camel-1,type=endpoints,name="file://data/inbox"]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="org.apache.camel.impl.DefaultComponent"
+	timestamp="1468089996246" level="DEBUG" thread="main">
+	<log4j:message><![CDATA[Creating endpoint uri=[file://data/outbox], path=[data/outbox]]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="org.apache.camel.impl.DefaultCamelContext"
+	timestamp="1468089996246" level="DEBUG" thread="main">
+	<log4j:message><![CDATA[file://data/outbox converted to endpoint: Endpoint[file://data/outbox] by component: org.apache.camel.component.file.FileComponent@15525a1]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="org.apache.camel.management.DefaultManagementAgent"
+	timestamp="1468089996248" level="DEBUG" thread="main">
+	<log4j:message><![CDATA[Registered MBean with ObjectName: org.apache.camel:context=camel-1,type=endpoints,name="file://data/outbox"]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="org.apache.camel.processor.interceptor.DefaultChannel"
+	timestamp="1468089996253" level="DEBUG" thread="main">
+	<log4j:message><![CDATA[Initialize channel for target: 'To[file:data/outbox]']]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="org.apache.camel.management.DefaultManagementAgent"
+	timestamp="1468089996261" level="DEBUG" thread="main">
+	<log4j:message><![CDATA[Registered MBean with ObjectName: org.apache.camel:context=camel-1,type=tracer,name=BacklogTracer]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="org.apache.camel.management.DefaultManagementAgent"
+	timestamp="1468089996273" level="DEBUG" thread="main">
+	<log4j:message><![CDATA[Registered MBean with ObjectName: org.apache.camel:context=camel-1,type=tracer,name=BacklogDebugger]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="org.apache.camel.management.DefaultManagementAgent"
+	timestamp="1468089996303" level="DEBUG" thread="main">
+	<log4j:message><![CDATA[Registered MBean with ObjectName: org.apache.camel:context=camel-1,type=errorhandlers,name="DefaultErrorHandlerBuilder(ref:CamelDefaultErrorHandlerBuilder)"]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="org.apache.camel.impl.DefaultCamelContext"
+	timestamp="1468089996314" level="INFO" thread="main">
+	<log4j:message><![CDATA[AllowUseOriginalMessage is enabled. If access to the original message is not needed, then its recommended to turn this option off as it may improve performance.]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="org.apache.camel.impl.DefaultCamelContext"
+	timestamp="1468089996314" level="INFO" thread="main">
+	<log4j:message><![CDATA[StreamCaching is not in use. If using streams then its recommended to enable stream caching. See more details at http://camel.apache.org/stream-caching.html]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="org.apache.camel.impl.DefaultCamelContext"
+	timestamp="1468089996314" level="DEBUG" thread="main">
+	<log4j:message><![CDATA[Warming up route id: route1 having autoStartup=true]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="org.apache.camel.impl.RouteService"
+	timestamp="1468089996315" level="DEBUG" thread="main">
+	<log4j:message><![CDATA[Starting services on route: route1]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="org.apache.camel.util.IntrospectionSupport"
+	timestamp="1468089996321" level="DEBUG" thread="main">
+	<log4j:message><![CDATA[Configured property: sendEmptyMessageWhenIdle on bean: Consumer[file://data/inbox] with value: false]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="org.apache.camel.util.IntrospectionSupport"
+	timestamp="1468089996321" level="DEBUG" thread="main">
+	<log4j:message><![CDATA[Configured property: scheduler on bean: Consumer[file://data/inbox] with value: null]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="org.apache.camel.util.IntrospectionSupport"
+	timestamp="1468089996322" level="DEBUG" thread="main">
+	<log4j:message><![CDATA[Configured property: greedy on bean: Consumer[file://data/inbox] with value: false]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="org.apache.camel.util.IntrospectionSupport"
+	timestamp="1468089996323" level="DEBUG" thread="main">
+	<log4j:message><![CDATA[Configured property: initialDelay on bean: Consumer[file://data/inbox] with value: 1000]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="org.apache.camel.util.IntrospectionSupport"
+	timestamp="1468089996323" level="DEBUG" thread="main">
+	<log4j:message><![CDATA[Configured property: startScheduler on bean: Consumer[file://data/inbox] with value: true]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="org.apache.camel.util.IntrospectionSupport"
+	timestamp="1468089996323" level="DEBUG" thread="main">
+	<log4j:message><![CDATA[Configured property: pollStrategy on bean: Consumer[file://data/inbox] with value: org.apache.camel.impl.DefaultPollingConsumerPollStrategy@acfe94]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="org.apache.camel.util.IntrospectionSupport"
+	timestamp="1468089996324" level="DEBUG" thread="main">
+	<log4j:message><![CDATA[Configured property: backoffErrorThreshold on bean: Consumer[file://data/inbox] with value: 0]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="org.apache.camel.util.IntrospectionSupport"
+	timestamp="1468089996324" level="DEBUG" thread="main">
+	<log4j:message><![CDATA[Configured property: timeUnit on bean: Consumer[file://data/inbox] with value: MILLISECONDS]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="org.apache.camel.util.IntrospectionSupport"
+	timestamp="1468089996324" level="DEBUG" thread="main">
+	<log4j:message><![CDATA[Configured property: scheduledExecutorService on bean: Consumer[file://data/inbox] with value: null]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="org.apache.camel.util.IntrospectionSupport"
+	timestamp="1468089996324" level="DEBUG" thread="main">
+	<log4j:message><![CDATA[Configured property: schedulerProperties on bean: Consumer[file://data/inbox] with value: null]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="org.apache.camel.util.IntrospectionSupport"
+	timestamp="1468089996324" level="DEBUG" thread="main">
+	<log4j:message><![CDATA[Configured property: useFixedDelay on bean: Consumer[file://data/inbox] with value: true]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="org.apache.camel.util.IntrospectionSupport"
+	timestamp="1468089996325" level="DEBUG" thread="main">
+	<log4j:message><![CDATA[Configured property: delay on bean: Consumer[file://data/inbox] with value: 500]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="org.apache.camel.util.IntrospectionSupport"
+	timestamp="1468089996325" level="DEBUG" thread="main">
+	<log4j:message><![CDATA[Configured property: backoffMultiplier on bean: Consumer[file://data/inbox] with value: 0]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="org.apache.camel.util.IntrospectionSupport"
+	timestamp="1468089996325" level="DEBUG" thread="main">
+	<log4j:message><![CDATA[Configured property: runLoggingLevel on bean: Consumer[file://data/inbox] with value: TRACE]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="org.apache.camel.util.IntrospectionSupport"
+	timestamp="1468089996325" level="DEBUG" thread="main">
+	<log4j:message><![CDATA[Configured property: backoffIdleThreshold on bean: Consumer[file://data/inbox] with value: 0]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="org.apache.camel.impl.RouteService"
+	timestamp="1468089996326" level="DEBUG" thread="main">
+	<log4j:message><![CDATA[Starting child service on route: route1 -> Channel[sendTo(Endpoint[file://data/outbox])]]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="org.apache.camel.management.DefaultManagementAgent"
+	timestamp="1468089996335" level="DEBUG" thread="main">
+	<log4j:message><![CDATA[Registered MBean with ObjectName: org.apache.camel:context=camel-1,type=producers,name=GenericFileProducer(0x1ed0884)]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="org.apache.camel.component.file.GenericFileProducer"
+	timestamp="1468089996335" level="DEBUG" thread="main">
+	<log4j:message><![CDATA[Starting producer: Producer[file://data/outbox]]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="org.apache.camel.impl.ProducerCache"
+	timestamp="1468089996335" level="DEBUG" thread="main">
+	<log4j:message><![CDATA[Adding to producer cache with key: Endpoint[file://data/outbox] for producer: Producer[file://data/outbox]]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="org.apache.camel.processor.DefaultErrorHandler"
+	timestamp="1468089996336" level="DEBUG" thread="main">
+	<log4j:message><![CDATA[Redelivery enabled: false on error handler: DefaultErrorHandler[Instrumentation:to[sendTo(Endpoint[file://data/outbox])]]]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="org.apache.camel.impl.RouteService"
+	timestamp="1468089996336" level="DEBUG" thread="main">
+	<log4j:message><![CDATA[Starting child service on route: route1 -> sendTo(Endpoint[file://data/outbox])]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="org.apache.camel.management.DefaultManagementAgent"
+	timestamp="1468089996350" level="DEBUG" thread="main">
+	<log4j:message><![CDATA[Registered MBean with ObjectName: org.apache.camel:context=camel-1,type=processors,name="to1"]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="org.apache.camel.impl.RouteService"
+	timestamp="1468089996350" level="DEBUG" thread="main">
+	<log4j:message><![CDATA[Starting child service on route: route1 -> Channel[sendTo(Endpoint[file://data/outbox])]]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="org.apache.camel.management.DefaultManagementAgent"
+	timestamp="1468089996367" level="DEBUG" thread="main">
+	<log4j:message><![CDATA[Registered MBean with ObjectName: org.apache.camel:context=camel-1,type=routes,name="route1"]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="org.apache.camel.support.TimerListenerManager"
+	timestamp="1468089996367" level="DEBUG" thread="main">
+	<log4j:message><![CDATA[Added TimerListener: org.apache.camel.management.mbean.ManagedSuspendableRoute@5b6f42]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="org.apache.camel.impl.DefaultCamelContext"
+	timestamp="1468089996368" level="DEBUG" thread="main">
+	<log4j:message><![CDATA[Route: route1 >>> EventDrivenConsumerRoute[Endpoint[file://data/inbox] -> Channel[sendTo(Endpoint[file://data/outbox])]]]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="org.apache.camel.impl.DefaultCamelContext"
+	timestamp="1468089996368" level="DEBUG" thread="main">
+	<log4j:message><![CDATA[Starting consumer (order: 1000) on route: route1]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="org.apache.camel.management.DefaultManagementAgent"
+	timestamp="1468089996374" level="DEBUG" thread="main">
+	<log4j:message><![CDATA[Registered MBean with ObjectName: org.apache.camel:context=camel-1,type=consumers,name=FileConsumer(0x24539d)]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="org.apache.camel.component.file.FileConsumer"
+	timestamp="1468089996374" level="DEBUG" thread="main">
+	<log4j:message><![CDATA[Starting consumer: Consumer[file://data/inbox]]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="org.apache.camel.util.IntrospectionSupport"
+	timestamp="1468089996376" level="DEBUG" thread="main">
+	<log4j:message><![CDATA[Configured property: initialDelay on bean: org.apache.camel.impl.DefaultScheduledPollConsumerScheduler@7a16e0 with value: 1000]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="org.apache.camel.util.IntrospectionSupport"
+	timestamp="1468089996376" level="DEBUG" thread="main">
+	<log4j:message><![CDATA[Configured property: timeUnit on bean: org.apache.camel.impl.DefaultScheduledPollConsumerScheduler@7a16e0 with value: MILLISECONDS]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="org.apache.camel.util.IntrospectionSupport"
+	timestamp="1468089996376" level="DEBUG" thread="main">
+	<log4j:message><![CDATA[Configured property: scheduledExecutorService on bean: org.apache.camel.impl.DefaultScheduledPollConsumerScheduler@7a16e0 with value: null]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="org.apache.camel.util.IntrospectionSupport"
+	timestamp="1468089996376" level="DEBUG" thread="main">
+	<log4j:message><![CDATA[Configured property: useFixedDelay on bean: org.apache.camel.impl.DefaultScheduledPollConsumerScheduler@7a16e0 with value: true]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="org.apache.camel.util.IntrospectionSupport"
+	timestamp="1468089996376" level="DEBUG" thread="main">
+	<log4j:message><![CDATA[Configured property: delay on bean: org.apache.camel.impl.DefaultScheduledPollConsumerScheduler@7a16e0 with value: 500]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="org.apache.camel.management.DefaultManagementAgent"
+	timestamp="1468089996390" level="DEBUG" thread="main">
+	<log4j:message><![CDATA[Registered MBean with ObjectName: org.apache.camel:context=camel-1,type=threadpools,name="FileConsumer(0x24539d)"]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="org.apache.camel.impl.DefaultExecutorServiceManager"
+	timestamp="1468089996390" level="DEBUG" thread="main">
+	<log4j:message><![CDATA[Created new ScheduledThreadPool for source: Consumer[file://data/inbox] with name: file://data/inbox. -> org.apache.camel.util.concurrent.SizedScheduledExecutorService@112fc97[file://data/inbox]]]></log4j:message>
+</log4j:event>
+
+<log4j:event
+	logger="org.apache.camel.impl.DefaultScheduledPollConsumerScheduler"
+	timestamp="1468089996390" level="DEBUG" thread="main">
+	<log4j:message><![CDATA[Scheduling poll (fixed delay) with initialDelay: 1000, delay: 500 (milliseconds) for: Endpoint[file://data/inbox]]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="org.apache.camel.impl.DefaultCamelContext"
+	timestamp="1468089996393" level="INFO" thread="main">
+	<log4j:message><![CDATA[Route: route1 started and consuming from: Endpoint[file://data/inbox]]]></log4j:message>
+</log4j:event>
+
+<log4j:event
+	logger="org.apache.camel.management.DefaultManagementLifecycleStrategy"
+	timestamp="1468089996393" level="DEBUG" thread="main">
+	<log4j:message><![CDATA[Load performance statistics disabled]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="org.apache.camel.impl.DefaultCamelContext"
+	timestamp="1468089996393" level="INFO" thread="main">
+	<log4j:message><![CDATA[Total 1 routes, of which 1 is started.]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="org.apache.camel.impl.DefaultCamelContext"
+	timestamp="1468089996397" level="INFO" thread="main">
+	<log4j:message><![CDATA[Apache Camel 2.15.1.redhat-621084 (CamelContext: camel-1) started in 0.580 seconds]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="org.apache.camel.component.file.FileEndpoint"
+	timestamp="1468089997397" level="DEBUG"
+	thread="Camel (camel-1) thread #0 - file://data/inbox">
+	<log4j:message><![CDATA[Parameters for Generic file process strategy {readLockMinAge=0, readLockMarkerFile=true, readLock=markerFile, readLockTimeout=10000, readLockLoggingLevel=WARN, readLockMinLength=1, readLockCheckInterval=1000}]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="org.apache.camel.component.file.FileEndpoint"
+	timestamp="1468089997432" level="DEBUG"
+	thread="Camel (camel-1) thread #0 - file://data/inbox">
+	<log4j:message><![CDATA[Using Generic file process strategy: org.apache.camel.component.file.strategy.GenericFileRenameProcessStrategy@1a3a9db]]></log4j:message>
+</log4j:event>
+
+<log4j:event
+	logger="org.apache.camel.component.file.strategy.MarkerFileExclusiveReadLockStrategy"
+	timestamp="1468089997432" level="DEBUG"
+	thread="Camel (camel-1) thread #0 - file://data/inbox">
+	<log4j:message><![CDATA[Prepare on startup by deleting orphaned lock files from: data\inbox]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="org.apache.camel.component.file.FileConsumer"
+	timestamp="1468089997434" level="DEBUG"
+	thread="Camel (camel-1) thread #0 - file://data/inbox">
+	<log4j:message><![CDATA[Took 0.002 seconds to poll: data\inbox]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="org.apache.camel.component.file.FileConsumer"
+	timestamp="1468089997937" level="DEBUG"
+	thread="Camel (camel-1) thread #0 - file://data/inbox">
+	<log4j:message><![CDATA[Took 0.001 seconds to poll: data\inbox]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="org.apache.camel.component.file.FileConsumer"
+	timestamp="1468089998439" level="DEBUG"
+	thread="Camel (camel-1) thread #0 - file://data/inbox">
+	<log4j:message><![CDATA[Took 0.000 seconds to poll: data\inbox]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="org.apache.camel.component.file.FileConsumer"
+	timestamp="1468089998942" level="DEBUG"
+	thread="Camel (camel-1) thread #0 - file://data/inbox">
+	<log4j:message><![CDATA[Took 0.001 seconds to poll: data\inbox]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="org.apache.camel.component.file.FileConsumer"
+	timestamp="1468089999444" level="DEBUG"
+	thread="Camel (camel-1) thread #0 - file://data/inbox">
+	<log4j:message><![CDATA[Took 0.001 seconds to poll: data\inbox]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="org.apache.camel.component.file.FileConsumer"
+	timestamp="1468089999946" level="DEBUG"
+	thread="Camel (camel-1) thread #0 - file://data/inbox">
+	<log4j:message><![CDATA[Took 0.001 seconds to poll: data\inbox]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="org.apache.camel.component.file.FileConsumer"
+	timestamp="1468090000449" level="DEBUG"
+	thread="Camel (camel-1) thread #0 - file://data/inbox">
+	<log4j:message><![CDATA[Took 0.000 seconds to poll: data\inbox]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="org.apache.camel.component.file.FileConsumer"
+	timestamp="1468090000952" level="DEBUG"
+	thread="Camel (camel-1) thread #0 - file://data/inbox">
+	<log4j:message><![CDATA[Took 0.001 seconds to poll: data\inbox]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="org.apache.camel.component.file.FileConsumer"
+	timestamp="1468090001455" level="DEBUG"
+	thread="Camel (camel-1) thread #0 - file://data/inbox">
+	<log4j:message><![CDATA[Took 0.001 seconds to poll: data\inbox]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="org.apache.camel.component.file.FileConsumer"
+	timestamp="1468090001957" level="DEBUG"
+	thread="Camel (camel-1) thread #0 - file://data/inbox">
+	<log4j:message><![CDATA[Took 0.001 seconds to poll: data\inbox]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="org.apache.camel.component.file.FileConsumer"
+	timestamp="1468090002459" level="DEBUG"
+	thread="Camel (camel-1) thread #0 - file://data/inbox">
+	<log4j:message><![CDATA[Took 0.001 seconds to poll: data\inbox]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="org.apache.camel.component.file.FileConsumer"
+	timestamp="1468090002961" level="DEBUG"
+	thread="Camel (camel-1) thread #0 - file://data/inbox">
+	<log4j:message><![CDATA[Took 0.001 seconds to poll: data\inbox]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="org.apache.camel.component.file.FileConsumer"
+	timestamp="1468090003463" level="DEBUG"
+	thread="Camel (camel-1) thread #0 - file://data/inbox">
+	<log4j:message><![CDATA[Took 0.001 seconds to poll: data\inbox]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="org.apache.camel.component.file.FileConsumer"
+	timestamp="1468090003964" level="DEBUG"
+	thread="Camel (camel-1) thread #0 - file://data/inbox">
+	<log4j:message><![CDATA[Took 0.001 seconds to poll: data\inbox]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="org.apache.camel.component.file.FileConsumer"
+	timestamp="1468090004467" level="DEBUG"
+	thread="Camel (camel-1) thread #0 - file://data/inbox">
+	<log4j:message><![CDATA[Took 0.001 seconds to poll: data\inbox]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="org.apache.camel.component.file.FileConsumer"
+	timestamp="1468090004969" level="DEBUG"
+	thread="Camel (camel-1) thread #0 - file://data/inbox">
+	<log4j:message><![CDATA[Took 0.001 seconds to poll: data\inbox]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="org.apache.camel.component.file.FileConsumer"
+	timestamp="1468090005471" level="DEBUG"
+	thread="Camel (camel-1) thread #0 - file://data/inbox">
+	<log4j:message><![CDATA[Took 0.001 seconds to poll: data\inbox]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="org.apache.camel.component.file.FileConsumer"
+	timestamp="1468090005974" level="DEBUG"
+	thread="Camel (camel-1) thread #0 - file://data/inbox">
+	<log4j:message><![CDATA[Took 0.000 seconds to poll: data\inbox]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="org.apache.camel.impl.DefaultCamelContext"
+	timestamp="1468090006398" level="INFO" thread="main">
+	<log4j:message><![CDATA[Apache Camel 2.15.1.redhat-621084 (CamelContext: camel-1) is shutting down]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="org.apache.camel.impl.DefaultShutdownStrategy"
+	timestamp="1468090006399" level="INFO" thread="main">
+	<log4j:message><![CDATA[Starting to graceful shutdown 1 routes (timeout 300 seconds)]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="org.apache.camel.impl.DefaultExecutorServiceManager"
+	timestamp="1468090006401" level="DEBUG" thread="main">
+	<log4j:message><![CDATA[Created new ThreadPool for source: org.apache.camel.impl.DefaultShutdownStrategy@4a3596 with name: ShutdownTask. -> org.apache.camel.util.concurrent.RejectableThreadPoolExecutor@1c85130[Running, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0][ShutdownTask]]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="org.apache.camel.impl.DefaultShutdownStrategy"
+	timestamp="1468090006405" level="DEBUG"
+	thread="Camel (camel-1) thread #1 - ShutdownTask">
+	<log4j:message><![CDATA[There are 1 routes to shutdown]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="org.apache.camel.impl.DefaultShutdownStrategy"
+	timestamp="1468090006406" level="DEBUG"
+	thread="Camel (camel-1) thread #1 - ShutdownTask">
+	<log4j:message><![CDATA[Route: route1 suspended and shutdown deferred, was consuming from: Endpoint[file://data/inbox]]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="org.apache.camel.impl.DefaultShutdownStrategy"
+	timestamp="1468090006407" level="DEBUG"
+	thread="Camel (camel-1) thread #1 - ShutdownTask">
+	<log4j:message><![CDATA[Route: route1 preparing to shutdown complete.]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="org.apache.camel.impl.DefaultExecutorServiceManager"
+	timestamp="1468090006407" level="DEBUG"
+	thread="Camel (camel-1) thread #1 - ShutdownTask">
+	<log4j:message><![CDATA[Forcing shutdown of ExecutorService: org.apache.camel.util.concurrent.SizedScheduledExecutorService@112fc97[file://data/inbox]]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="org.apache.camel.management.DefaultManagementAgent"
+	timestamp="1468090006408" level="DEBUG"
+	thread="Camel (camel-1) thread #1 - ShutdownTask">
+	<log4j:message><![CDATA[Unregistered MBean with ObjectName: org.apache.camel:context=camel-1,type=threadpools,name="FileConsumer(0x24539d)"]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="org.apache.camel.component.file.FileConsumer"
+	timestamp="1468090006408" level="DEBUG"
+	thread="Camel (camel-1) thread #1 - ShutdownTask">
+	<log4j:message><![CDATA[Stopping consumer: Consumer[file://data/inbox]]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="org.apache.camel.impl.SharedProducerServicePool"
+	timestamp="1468090006408" level="DEBUG"
+	thread="Camel (camel-1) thread #1 - ShutdownTask">
+	<log4j:message><![CDATA[Stopping service pool: org.apache.camel.impl.SharedProducerServicePool@11d21e1]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="org.apache.camel.component.file.GenericFileProducer"
+	timestamp="1468090006408" level="DEBUG"
+	thread="Camel (camel-1) thread #1 - ShutdownTask">
+	<log4j:message><![CDATA[Stopping producer: Producer[file://data/outbox]]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="org.apache.camel.management.DefaultManagementAgent"
+	timestamp="1468090006409" level="DEBUG"
+	thread="Camel (camel-1) thread #1 - ShutdownTask">
+	<log4j:message><![CDATA[Unregistered MBean with ObjectName: org.apache.camel:context=camel-1,type=producers,name=GenericFileProducer(0x1ed0884)]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="org.apache.camel.impl.DefaultShutdownStrategy"
+	timestamp="1468090006409" level="INFO"
+	thread="Camel (camel-1) thread #1 - ShutdownTask">
+	<log4j:message><![CDATA[Route: route1 shutdown complete, was consuming from: Endpoint[file://data/inbox]]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="org.apache.camel.impl.DefaultShutdownStrategy"
+	timestamp="1468090006409" level="INFO" thread="main">
+	<log4j:message><![CDATA[Graceful shutdown of 1 routes completed in 0 seconds]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="org.apache.camel.impl.DefaultAsyncProcessorAwaitManager"
+	timestamp="1468090006409" level="DEBUG" thread="main">
+	<log4j:message><![CDATA[Shutting down with no inflight threads.]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="org.apache.camel.support.TimerListenerManager"
+	timestamp="1468090006410" level="DEBUG" thread="main">
+	<log4j:message><![CDATA[Removed TimerListener: org.apache.camel.management.mbean.ManagedSuspendableRoute@5b6f42]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="org.apache.camel.management.DefaultManagementAgent"
+	timestamp="1468090006410" level="DEBUG" thread="main">
+	<log4j:message><![CDATA[Unregistered MBean with ObjectName: org.apache.camel:context=camel-1,type=routes,name="route1"]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="org.apache.camel.impl.RouteService"
+	timestamp="1468090006410" level="DEBUG" thread="main">
+	<log4j:message><![CDATA[Stopping services on route: route1]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="org.apache.camel.impl.RouteService"
+	timestamp="1468090006410" level="DEBUG" thread="main">
+	<log4j:message><![CDATA[Shutting down child service on route: route1 -> Consumer[file://data/inbox]]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="org.apache.camel.management.DefaultManagementAgent"
+	timestamp="1468090006411" level="DEBUG" thread="main">
+	<log4j:message><![CDATA[Unregistered MBean with ObjectName: org.apache.camel:context=camel-1,type=consumers,name=FileConsumer(0x24539d)]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="org.apache.camel.impl.RouteService"
+	timestamp="1468090006411" level="DEBUG" thread="main">
+	<log4j:message><![CDATA[Shutting down child service on route: route1 -> Channel[sendTo(Endpoint[file://data/outbox])]]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="org.apache.camel.impl.RouteService"
+	timestamp="1468090006411" level="DEBUG" thread="main">
+	<log4j:message><![CDATA[Shutting down child service on route: route1 -> sendTo(Endpoint[file://data/outbox])]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="org.apache.camel.impl.RouteService"
+	timestamp="1468090006411" level="DEBUG" thread="main">
+	<log4j:message><![CDATA[Shutting down child service on route: route1 -> Channel[sendTo(Endpoint[file://data/outbox])]]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="org.apache.camel.impl.RouteService"
+	timestamp="1468090006412" level="DEBUG" thread="main">
+	<log4j:message><![CDATA[Shutting down services on route: route1]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="org.apache.camel.support.TimerListenerManager"
+	timestamp="1468090006413" level="DEBUG" thread="main">
+	<log4j:message><![CDATA[Removed TimerListener: org.apache.camel.management.mbean.ManagedCamelContext@15be5b6]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="org.apache.camel.management.DefaultManagementAgent"
+	timestamp="1468090006413" level="DEBUG" thread="main">
+	<log4j:message><![CDATA[Unregistered MBean with ObjectName: org.apache.camel:context=camel-1,type=context,name="camel-1"]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="org.apache.camel.impl.DefaultExecutorServiceManager"
+	timestamp="1468090006413" level="DEBUG" thread="main">
+	<log4j:message><![CDATA[Forcing shutdown of ExecutorService: org.apache.camel.util.concurrent.RejectableThreadPoolExecutor@1c85130[Running, pool size = 1, active threads = 0, queued tasks = 0, completed tasks = 1][ShutdownTask]]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="org.apache.camel.impl.DefaultInflightRepository"
+	timestamp="1468090006413" level="DEBUG" thread="main">
+	<log4j:message><![CDATA[Shutting down with no inflight exchanges.]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="org.apache.camel.util.EventHelper"
+	timestamp="1468090006414" level="DEBUG" thread="main">
+	<log4j:message><![CDATA[Ignoring notifying event Stopped CamelContext: camel-1. The EventNotifier has not been started yet: org.apache.camel.impl.DefaultRuntimeEndpointRegistry@9598c0]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="org.apache.camel.management.DefaultManagementAgent"
+	timestamp="1468090006414" level="DEBUG" thread="main">
+	<log4j:message><![CDATA[Unregistered MBean with ObjectName: org.apache.camel:context=camel-1,type=services,name=DefaultTypeConverter]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="org.apache.camel.management.DefaultManagementAgent"
+	timestamp="1468090006414" level="DEBUG" thread="main">
+	<log4j:message><![CDATA[Unregistered MBean with ObjectName: org.apache.camel:context=camel-1,type=services,name=SharedProducerServicePool]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="org.apache.camel.management.DefaultManagementAgent"
+	timestamp="1468090006414" level="DEBUG" thread="main">
+	<log4j:message><![CDATA[Unregistered MBean with ObjectName: org.apache.camel:context=camel-1,type=processors,name="to1"]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="org.apache.camel.management.DefaultManagementAgent"
+	timestamp="1468090006415" level="DEBUG" thread="main">
+	<log4j:message><![CDATA[Unregistered MBean with ObjectName: org.apache.camel:context=camel-1,type=endpoints,name="file://data/outbox"]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="org.apache.camel.management.DefaultManagementAgent"
+	timestamp="1468090006415" level="DEBUG" thread="main">
+	<log4j:message><![CDATA[Unregistered MBean with ObjectName: org.apache.camel:context=camel-1,type=services,name=DefaultRestRegistry]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="org.apache.camel.management.DefaultManagementAgent"
+	timestamp="1468090006415" level="DEBUG" thread="main">
+	<log4j:message><![CDATA[Unregistered MBean with ObjectName: org.apache.camel:context=camel-1,type=endpoints,name="file://data/inbox"]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="org.apache.camel.management.DefaultManagementAgent"
+	timestamp="1468090006415" level="DEBUG" thread="main">
+	<log4j:message><![CDATA[Unregistered MBean with ObjectName: org.apache.camel:context=camel-1,type=services,name=DefaultAsyncProcessorAwaitManager]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="org.apache.camel.management.DefaultManagementAgent"
+	timestamp="1468090006415" level="DEBUG" thread="main">
+	<log4j:message><![CDATA[Unregistered MBean with ObjectName: org.apache.camel:context=camel-1,type=errorhandlers,name="DefaultErrorHandlerBuilder(ref:CamelDefaultErrorHandlerBuilder)"]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="org.apache.camel.management.DefaultManagementAgent"
+	timestamp="1468090006415" level="DEBUG" thread="main">
+	<log4j:message><![CDATA[Unregistered MBean with ObjectName: org.apache.camel:context=camel-1,type=services,name=DefaultPackageScanClassResolver]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="org.apache.camel.management.DefaultManagementAgent"
+	timestamp="1468090006415" level="DEBUG" thread="main">
+	<log4j:message><![CDATA[Unregistered MBean with ObjectName: org.apache.camel:context=camel-1,type=services,name=DefaultEndpointRegistry]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="org.apache.camel.management.DefaultManagementAgent"
+	timestamp="1468090006415" level="DEBUG" thread="main">
+	<log4j:message><![CDATA[Unregistered MBean with ObjectName: org.apache.camel:context=camel-1,type=tracer,name=BacklogTracer]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="org.apache.camel.management.DefaultManagementAgent"
+	timestamp="1468090006415" level="DEBUG" thread="main">
+	<log4j:message><![CDATA[Unregistered MBean with ObjectName: org.apache.camel:context=camel-1,type=eventnotifiers,name=EventNotifier(0x9598c0)]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="org.apache.camel.management.DefaultManagementAgent"
+	timestamp="1468090006415" level="DEBUG" thread="main">
+	<log4j:message><![CDATA[Unregistered MBean with ObjectName: org.apache.camel:context=camel-1,type=tracer,name=BacklogDebugger]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="org.apache.camel.management.DefaultManagementAgent"
+	timestamp="1468090006415" level="DEBUG" thread="main">
+	<log4j:message><![CDATA[Unregistered MBean with ObjectName: org.apache.camel:context=camel-1,type=services,name=DefaultInflightRepository]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="org.apache.camel.management.DefaultManagementAgent"
+	timestamp="1468090006415" level="DEBUG" thread="main">
+	<log4j:message><![CDATA[Unregistered MBean with ObjectName: org.apache.camel:context=camel-1,type=components,name="file"]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="org.apache.camel.management.DefaultManagementAgent"
+	timestamp="1468090006415" level="DEBUG" thread="main">
+	<log4j:message><![CDATA[Unregistered MBean with ObjectName: org.apache.camel:context=camel-1,type=services,name=DefaultShutdownStrategy]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="org.apache.camel.management.DefaultManagementAgent"
+	timestamp="1468090006416" level="DEBUG" thread="main">
+	<log4j:message><![CDATA[Unregistered MBean with ObjectName: org.apache.camel:context=camel-1,type=services,name=DefaultExecutorServiceManager]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="org.apache.camel.util.IntrospectionSupport"
+	timestamp="1468090006416" level="DEBUG" thread="main">
+	<log4j:message><![CDATA[Clearing cache[size=1, hits=61, misses=52, evicted=0]]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="org.apache.camel.impl.DefaultCamelContext"
+	timestamp="1468090006416" level="INFO" thread="main">
+	<log4j:message><![CDATA[Apache Camel 2.15.1.redhat-621084 (CamelContext: camel-1) uptime 10.603 seconds]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="org.apache.camel.impl.DefaultCamelContext"
+	timestamp="1468090006417" level="INFO" thread="main">
+	<log4j:message><![CDATA[Apache Camel 2.15.1.redhat-621084 (CamelContext: camel-1) is shutdown in 0.018 seconds]]></log4j:message>
+</log4j:event>
+
